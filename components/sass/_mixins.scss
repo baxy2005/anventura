@@ -1,0 +1,18 @@
+/* Scss Document */
+
+
+
+@mixin paddingMarginZero {
+	padding:0px;
+	margin:0px;
+}
+
+@mixin stencil {
+			display: inline;
+			padding: 0px;
+			box-shadow: 5px 0px 0px $light-2-color-white, -5px 0px 0px $light-2-color-white;
+			font-weight: normal;
+			box-decoration-break: clone;
+			
+	
+}
