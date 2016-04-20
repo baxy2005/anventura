@@ -1,11 +1,20 @@
 /* Scss Document */
 
-$color-primary: #E45639;
+$color-primary: #8DC644;
 $color-secondary: #F8CF22;
 $color-tertiary: #796B9C;
 $color-black: #000000;
 $color-white: #FFFFFF;
 
+/* room and ap colors*/
+
+$color-africa: #FFBC01;
+$color-india: #73108E;
+$color-space: #132060;
+$color-japan: #E50000;
+$color-rouge: #BE0000;
+$color-artRetro: #EB8300;
+$color-family: #00B7EB;
 
 $light-color-gray: lighten($color-black, 80% );
 $dark-color-gray: lighten($color-black, 20% );

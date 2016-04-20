@@ -1,14 +1,15 @@
-$('.custom1').owlCarousel({
-    items:1,
-    lazyLoad:false,
-    loop:true,
-	autoplay: true,
-	nav:true,
-});
 
 $('#main-carousel').owlCarousel({
-	animateOut: 'bounceOutLeft',
-    animateIn: 'flipInX',
+	animateOut: 'fadeOut',
+    items:1,
+    lazyLoad:true,
+    loop:true,
+	autoplay: true,
+	nav:false,
+	margin:30,
+});
+$('.owl-carousel').owlCarousel({
+	animateOut: 'fadeOut',
     items:1,
     lazyLoad:true,
     loop:true,
