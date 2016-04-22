@@ -18,13 +18,17 @@
 @import "variables";
 @import "mixins";
 
-.box .owl-theme .owl-controls {
+body {
+color: $text-color-gray;	
+}
+
+/*.box .owl-theme .owl-controls {
 	position: relative;
 left: 170px;
 top: -340px;
 margin-top: 0;
 }
-
+*/
 .owl-rooms-aps .owl-item {
    max-height: 350px;
 }
@@ -109,12 +113,114 @@ margin-top: 9px;
 	
 }
 
+/*general info opening*/
+.general-info {
+	padding: 45px 0;	
+	.row {
+	margin-left: 0;
+	margin-right: 0;	
+	}
+}
+.box-general-info {
+	margin-bottom:30px;
+	h1 {
+		color: $color-white;
+		font-size: 32px;
+		font-weight: normal;
+		margin-bottom: 25px;
+		margin-top: 0px;
+	}
+}
+	.box-general-info:last-child {
+	margin-bottom: 0px;
+		}
+
+.box-bouble {
+	min-height: 15px;
+	background-color: $light-2-color-white;
+	border-radius: 12px;
+	padding: 30px;
+	.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+	
+}
+.box-bouble:before {
+	 content: "";
+	height: 10px;
+	display: block;
+	padding-top: 10px;
+	position: absolute;
+	margin-top: -40px;
+	width: 100%;
+	background-image: url(../images/aventura-triangle-white.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	opacity: .85;
+	}
+	
+	/*general info opening facilities*/
+	
+	.facilities  {
+	.nav {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		text-align: center;
+	}
+	.nav img {
+		background-color: $color-primary;	
+		margin-bottom: 5px;
+	}
+	.nav li {
+	width: 49%;
+	justify-content: center;
+	color: $color-primary;	
+	}
+	.nav li p {
+		margin-bottom: 20px;
+	}
+	}
+	
+	/*general info opening awards*/
+	
+	.awards {
+		img {
+			border-radius: 12px;
+			border: 1px solid $light-color-gray;
+		}
+		.owl-carousel .owl-item {
+		text-align: center;	
+		}
+		.row {
+			width: 100%;
+			margin: 0 auto;
+		}
+			.row.row-margin{
+			margin-bottom: 20px;
+		}
+		.owl-theme .owl-controls .owl-nav {
+		display: none;
+		}
+		h3 {
+		font-size: 18px;
+		margin-top: 0px;	
+		font-weight: normal;
+		margin-bottom: 25px;
+		}
+	}
+	
 	/*rooms and apps opening*/
 	.box {
 	min-height: 424px;	
 	border-radius: 12px;
 	margin-bottom: 10px;
 		}
+	.general-info{
+	background-color: $color-primary;	
+	}
+
 	.africa-room{
 	background-color: $color-africa !important;	
 	}
@@ -140,7 +246,7 @@ margin-top: 9px;
 	width: 150px;
 	height: 150px;
 	background-color: #fff;
-	margin-top: -100px;
+	margin-top: -110px;
 	position:relative;
 	text-align: center;
 	border-radius: 80px;
@@ -228,10 +334,10 @@ display: table !important;
 width: 100%;
 margin: 0;
 ul li {
-	min-height: 47px;
+	min-height: 35px;
 	font-size: 20px;
 	color: $color-white;
-	line-height: 2.1;
+	line-height: 1.5;
 	margin-bottom: 10px;
 	display: inline-block;
 }
@@ -248,8 +354,8 @@ ul li:last-child {
 	width: auto;
 }
 .icon {
-	width: 47px;
-	height: 47px;
+	width: 30px;
+	height: 30px;
 	border: 2px solid $color-white;
 	border-radius: 80px;
 	text-align: center;
@@ -260,6 +366,8 @@ ul li:last-child {
 	margin-right: 10px;
 }
 ul li img {
+	width: 70%;
+	height: 70%;
 }
 .nav-pills {
 	margin-bottom: 5px;
@@ -334,6 +442,45 @@ margin-right: 5px;
 }
 
 @media (min-width: 992px) {
+ .awards .owl-theme .owl-controls .owl-dots {
+		display: none !important;	
+		}
+		
+	 .awards {
+	.owl-theme .owl-controls .owl-nav .owl-prev {
+		left: -35px;
+		background-image: url(../images/aventura-carusel-arrow-left.svg);
+
+	}
+	.owl-theme .owl-controls .owl-nav .owl-next {
+		right: -35px;
+		background-image: url(../images/aventura-carusel-arrow-right.svg);
+	}
+	.owl-theme .owl-controls .owl-nav .owl-next, .owl-theme .owl-controls .owl-nav .owl-prev {
+		width: 22px;
+		height: 22px;
+		border-radius: 80px;
+		top: 25px;
+		position: absolute;
+		text-indent: -40000px;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+		.row {
+			width: 93%;
+			margin: 0 auto;
+		}
+		.owl-theme .owl-controls .owl-nav {
+		display: block;
+		}
+	 }
+		
+		
+		
+	.facilities 	.nav li {
+	width: 16.6%;
+	justify-content: center;
+	}
 		
 		.padding-right-zero {
 	padding-right:0px;
@@ -580,7 +727,7 @@ margin-right: 10px;
 }
 
 	.navbar-nav > li > a {
-    padding-top:10px;
+    padding-top:0px;
     padding-bottom: 10px;
 }
 }
@@ -592,8 +739,11 @@ margin-right: 10px;
 
 
 
-@media (max-width: 479px) {
-	
+@media (min-width: 500px) and  (max-width: 991px){
+	.facilities 	.nav li {
+	width: 33%;
+	justify-content: center;
+	}
 }
 
 @media (max-width: 767px) {

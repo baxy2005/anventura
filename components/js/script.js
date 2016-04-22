@@ -8,7 +8,9 @@ $('#main-carousel').owlCarousel({
 	nav:false,
 	margin:30,
 });
-$('.owl-carousel').owlCarousel({
+
+
+$('.owl-rooms-aps').owlCarousel({
 	animateOut: 'fadeOut',
     items:1,
     lazyLoad:true,
@@ -18,25 +20,20 @@ $('.owl-carousel').owlCarousel({
 	margin:30,
 });
 
-$('#news-carousel').owlCarousel({
-    items:2,
+
+$('.owl-carousel-awards').owlCarousel({
     lazyLoad:true,
     loop:true,
 	autoplay: false,
-});
-$('#calendar-carousel').owlCarousel({
-    lazyLoad:true,
-    loop:true,
-	autoplay: true,
 	nav:true,
 	 responsiveClass:true,
     responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         440:{
-            items:2,
+            items:3,
             nav:true
         },
 		        767:{
@@ -45,10 +42,14 @@ $('#calendar-carousel').owlCarousel({
         },
 
         992:{
-            items:1,
+            items:4,
             nav:true,
-            loop:false
+        },
+		        1200:{
+            items:6,
+            nav:true,
         }
+
     }
 });
 
