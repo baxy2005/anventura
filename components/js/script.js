@@ -20,6 +20,38 @@ $('.owl-rooms-aps').owlCarousel({
 	margin:30,
 });
 
+$('.owl-news').owlCarousel({
+    items:1,
+    loop:true,
+	autoplay: false,
+	nav:false,
+		 responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        550:{
+            items:2,
+            nav:false
+        },
+		        767:{
+            items:2,
+            nav:false
+        },
+
+        992:{
+            items:1,
+            nav:true,
+        },
+		        1200:{
+            items:1,
+            nav:true,
+        }
+
+    }
+
+});
 
 $('.owl-carousel-awards').owlCarousel({
     lazyLoad:true,

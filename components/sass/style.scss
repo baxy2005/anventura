@@ -122,12 +122,12 @@ margin-top: 9px;
 	}
 }
 .box-general-info {
-	margin-bottom:30px;
+	margin-bottom:45px;
 	h1 {
 		color: $color-white;
 		font-size: 32px;
 		font-weight: normal;
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 		margin-top: 0px;
 	}
 }
@@ -144,7 +144,26 @@ margin-top: 9px;
     margin-right: -15px;
     margin-left: -15px;
 }
-	
+	.btn {
+		font-size: 18px;
+		padding: 8px 27px;
+		border-radius: 12px;
+		border: solid 2px $color-primary;
+			background-color: transparent;
+			width: 100% !important;
+			color: $color-primary;
+			font-weight: bold;
+			margin-bottom: 0px !important;
+
+		
+		@media (min-width: 992px) {
+			background-color: transparent;
+			width: auto !important;
+			color: $color-primary;
+			font-weight: bold;
+			margin-bottom: 0px !important;
+		}
+	}
 }
 .box-bouble:before {
 	 content: "";
@@ -209,6 +228,67 @@ margin-top: 9px;
 		font-weight: normal;
 		margin-bottom: 25px;
 		}
+	}
+	
+	/*general info opening awards*/
+	.news, .reviews {
+		
+		h3 {
+			font-size: 18px;
+			color: $color-primary;
+			font-size: 18px;			
+			@media (min-width: 992px) {
+			margin-top: 0px;
+		}
+
+		}
+		
+	}
+	
+	/*general info opening reviews*/
+	
+	.box-bouble-outline {
+		background-color: transparent;
+		border: solid 2px $color-primary;
+		
+	}
+	
+	.box-bouble-outline:before {
+	position: relative;
+	background-image: url(../images/aventura-triangle-green@2x.png);
+	background-size: 18px 10px;
+	background-position: center 0;	
+	opacity: 1;
+	z-index: 3;
+	margin-bottom: 30px;
+	}
+	
+	.reviews {
+	h3, small {
+		text-align: center;	
+	}
+	small {
+	display: block;	
+	margin-bottom: 20px;
+	}
+	p {
+	margin-bottom: 0px;	
+	}
+	.fa-user {
+		font-size: 28px;
+		text-align: center;
+		color: $color-white;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+	i {
+		width: 40px;
+		height: 40px;
+		background-color: $color-primary;
+		border-radius: 120px;	
+		line-height: 1.3;
+}
 	}
 	
 	/*rooms and apps opening*/
@@ -442,11 +522,12 @@ margin-right: 5px;
 }
 
 @media (min-width: 992px) {
- .awards .owl-theme .owl-controls .owl-dots {
+	/*general info opening awards*/
+ .awards .owl-theme .owl-controls .owl-dots, .news .owl-theme .owl-controls .owl-dots, .reviews .owl-theme .owl-controls .owl-dots {
 		display: none !important;	
 		}
 		
-	 .awards {
+	 .awards, .news, .reviews {
 	.owl-theme .owl-controls .owl-nav .owl-prev {
 		left: -35px;
 		background-image: url(../images/aventura-carusel-arrow-left.svg);
@@ -475,7 +556,29 @@ margin-right: 5px;
 		}
 	 }
 		
-		
+		/*general info opening news*/
+		.news, .reviews {
+		.owl-theme .owl-controls .owl-nav .owl-prev {
+		right: 35px !important;
+		left: auto;
+		background-image: url(../images/aventura-carusel-arrow-left.svg);
+	}	
+		.owl-theme .owl-controls .owl-nav .owl-next {
+		right: 10px;
+		background-image: url(../images/aventura-carusel-arrow-right.svg);
+	}
+
+		.row {
+			width: auto;
+			margin: auto;
+			margin-left: -15px;
+			margin-right: -15px;		
+}
+	.owl-theme .owl-controls .owl-nav .owl-next, .owl-theme .owl-controls .owl-nav .owl-prev {
+		top: 0px;
+		margin: 0px;
+	}
+		}
 		
 	.facilities 	.nav li {
 	width: 16.6%;
