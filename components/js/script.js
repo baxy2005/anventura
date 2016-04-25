@@ -119,73 +119,65 @@ $(function() {
     }
   });
 
-  //pin the navigation
-  var pin = new ScrollScene({
-    triggerElement: '#nav-trigger',
-	offset: 5  /*offset the trigger 150px below #scene's top */
-  })
-  .setPin('.secondary-nav')
-  .addTo(scrollMagicController);
- 
-    var scene3 = new ScrollScene({
-	triggerElement: '#nav-trigger',
-  	offset: 6  /*offset the trigger 150px below #scene's top */
-
-  })
-    .setClassToggle('.secondary-nav', 'secondary-nav-top')
-   .addTo(scrollMagicController);
-
-	 var scene6 = new ScrollScene({
-	triggerElement: '#nav-trigger',
-  	offset: 120  /*offset the trigger 150px below #scene's top */
 	
-  })
-    .setClassToggle('.secondary-nav', 'fade-secondary-nav-bg')
-    .addTo(scrollMagicController);
+	
 	
 
-    var scene = new ScrollScene({
-    offset: 60 /* offset the trigger 150px below #scene's top */
+
+var tween = TweenMax.fromTo('.main-bar', 0.3,
+    {
+        top: 0,
+		height: 628
+    },
+    {
+		 top: 15,
+		 height: 430
+     }
+);
+	 var scene = new ScrollScene({
+			   offset: 600
 	
   })
-    .setClassToggle('.navmenu', 'navmenu-fixed')
+     .setClassToggle('.budapest', 'off')
+    .setTween(tween)
     .addTo(scrollMagicController);
 	
-	
-	
-	
-	//var tween = TweenMax.from('.brand-on', 0.2, {
-//    opacity: 0,
-//  });
-//		 var scene7 = new ScrollScene({
-//			  triggerElement: '#brand-switch',
-//			   offset: -15
-//	
-//  })
-//    .setTween(tween)
-//    .addTo(scrollMagicController);
-	
-	
-	 var scene4 = new ScrollScene({
-    offset: 60 /* offset the trigger 150px below #scene's top */
+		 var scene2 = new ScrollScene({
+			   offset: 600
 	
   })
-    .setClassToggle('.form-inline-opening', 'form-inline-opening-fixed')
+  .setClassToggle('.aventura-brand', 'aventura-brand-small')
+	   .setClassToggle('.aventura-tube', 'budapest-off')
     .addTo(scrollMagicController);
-	
-	  var scene8 = new ScrollScene({
-    offset: 60 /* offset the trigger 150px below #scene's top */
+
+			 var scene3 = new ScrollScene({
+			   offset: 600
 	
   })
-    .setClassToggle('.secondary-nav-subpage', 'secondary-nav-top')
+  .setClassToggle('.aventura-brand', 'aventura-brand-small')
     .addTo(scrollMagicController);
-	
-		 var scene9 = new ScrollScene({
-    offset: 90 /* offset the trigger 150px below #scene's top */
+
+			 var scene4 = new ScrollScene({
+			   offset: 600
 	
   })
-    .setClassToggle('.secondary-nav-subpage', 'fade-secondary-nav-bg')
+  .setClassToggle('.main-bar', 'main-bar-moving')
     .addTo(scrollMagicController);
+
+				 var scene5 = new ScrollScene({
+			   offset: 600
+	
+  })
+  .setClassToggle('.navbar-fixed-top', 'navbar-fixed-top-moving')
+    .addTo(scrollMagicController);
+
+				 var scene6 = new ScrollScene({
+			   offset: 600
+	
+  })
+  .setClassToggle('.form-opening', 'form-opening-moving')
+    .addTo(scrollMagicController);
+
 	
 	
   // Add debug indicators fixed on right side
@@ -218,10 +210,5 @@ $('.navmenu-default ul.nav li.dropdown').hover(function() {
 }, function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(0).fadeOut(170);
 });*/
-
-
-	$(".card").flip({
-  trigger: 'hover'
-});
 
 

@@ -29,6 +29,177 @@ top: -340px;
 margin-top: 0;
 }
 */
+
+/* anim*/
+.budapest, .main-bar{
+		-moz-transition: all .3s  ease-in-out;
+	-o-transition: all .3s  ease-in-out ;
+	-webkit-transition: all .3s  ease-in-out;
+	transition: all .3s ease-in-out ;
+
+}
+ .navbar-fixed-top, .form-opening-moving{
+		-moz-transition: all .4s  ease-in-out;
+	-o-transition: all .4s  ease-in-out ;
+	-webkit-transition: all .4s  ease-in-out;
+	transition: all .4s ease-in-out ;
+ }
+.budapest-off {
+	display: none;
+}
+.off {
+	display: none;
+}
+.aventura-brand {
+			-moz-transition: all .3s ;
+	-o-transition: all .3s ;
+	-webkit-transition: all .3s ;
+	transition: all .3s ;
+}
+.aventura-brand-small { 
+min-height: 82px !important;
+margin-top: 0 !important;
+border-top-right-radius:0px !important;
+border-top-left-radius: 0px !important;
+}
+
+.main-bar-moving {
+	border-top-right-radius:12px !important;
+	border-top-left-radius: 12px !important;
+}
+
+.navbar-fixed-top-moving {
+top: 120px !important;	
+}
+
+.form-opening-moving {
+	top: 185px !important;
+}
+
+/*footer*/
+
+footer {
+	color: $color-white;
+	h4 {
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.col-xs-12 {
+		margin-bottom: 30px
+	}
+
+.gray {
+	background-color: $text-color-gray ;	
+	min-height: auto;
+	padding: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	align-items: center;
+	@media (min-width: 992px) {
+		padding: 30px;
+	}
+i {
+	height: 60px;
+	width: 60px;
+	border: 2px solid white;
+	border-radius: 12px;
+	display: inline-block;
+	text-align: center;
+	line-height: 3.5;	
+	margin-bottom: 20px;
+}
+.mini-brand {
+text-align: left;
+	@media (min-width: 992px) {
+		text-align: right;
+	}
+	p {
+color: $light-4-color-white;
+font-size: 12px;
+	}
+	a {
+		color: $light-4-color-white;
+	}
+	a:hover, a:focus, a:active {
+	color: $color-white;
+	text-decoration: none;
+	}
+}
+.flex{
+	display: auto;
+
+		@media (min-width: 992px) {
+		display: flex;
+		align-items: center;
+	width: 100%;
+		
+	}
+
+}
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+	color: $color-white;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 5px 0px;
+	color: $light-4-color-white;
+}
+.nav span {
+display: block;
+color: $color-white;
+	
+}
+			ul.social {
+				text-align:left;
+				text-indent: -3000px;
+				margin-bottom: 15px;
+				padding-top: 5px;
+			}
+			ul.social li {
+			display: inline-block;
+			height: 40px;
+			width: 40px;	
+			border-radius: 6px;
+			margin-right: 3px;
+			margin-bottom: 5px;
+			}
+				ul.social li:last-child {
+			margin-right: 0px;
+			}
+			ul.social li a:hover, ul li a:focus {
+				background-color: transparent;
+			}
+			ul.social li.facebook {
+				background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);	
+				background-color: #3B5A99;
+				background-position: 0px center;
+			}
+			ul.social li.twitter {
+				background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
+				background-color: #4FD6FA;
+				background-position: -39px center;
+			}
+			ul.social li.pinterest {
+				background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
+				background-color: #CC2127;
+				background-position: -79px center;
+			}
+			ul.social li.tripadvisor {
+				background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
+				background-color: #4C8B38;
+				background-position: -117px center;
+			}
+			ul.social li.googlePlus {
+				background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
+				background-color: #DD4B39;
+				background-position: -156px center;
+			}
+}
 .owl-rooms-aps .owl-item {
    max-height: 350px;
 }
@@ -111,6 +282,96 @@ margin-top: 9px;
 		margin-right: 15px;
 	}
 	
+}
+
+/*form*/
+.form-opening {
+label {
+    font-weight: normal;
+	font-size: 16px;
+			@media (min-width: 992px) {
+				font-size: 14px;
+				color: $light-4-color-white;
+	}
+
+	
+}
+h2 {
+		@media (min-width: 992px) {
+			font-size: 26px;
+			color: $color-white;
+			margin-top: 0;
+	}
+}
+.form-group {
+			@media (min-width: 992px) {
+	margin-bottom: 10px;
+}
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #EFEFEF;
+    background-image: none;
+    border: 1px solid #999;
+    border-radius: 12px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+			@media (min-width: 992px) {
+    			height: 40px;
+				border: none;
+				background-color: $color-white;
+	}
+
+}
+.btn-form {
+    border-radius: 12px;
+	height: 38px;
+	background-color: $color-primary;
+	color: $color-white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	width: 100%;
+			@media (min-width: 992px) {
+	background-color: $color-white;
+	color: $color-primary;
+	height: 40px;
+	}
+	
+}
+.btn-form.active, .btn-form.focus, .btn-form:active, .btn-form:focus, .btn-form:hover, .open > .dropdown-toggle.btn-default {
+    color: $color-white;
+	background-color: $color-primary;
+				@media (min-width: 992px) {
+	background-color: $color-white;
+	color: $color-primary;
+	}
+
+}
+.form-control:focus {
+    border-color: $color-primary;
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba($color-primary, 0.6);
+}
+
+.checkIn {
+		background-image: url(../images/aventura-mobil-checkInBg.svg);
+		background-repeat: no-repeat;
+		background-position: 95% 3px;
+}
+	@media (min-width: 992px) {
+				position: fixed;
+				left: 99px;
+				top: 385px;
+				z-index: 9999999;
+				width: 220px;
+	}
 }
 
 /*general info opening*/
@@ -804,6 +1065,7 @@ margin-right: 5px;
 	padding-left: 15px;
 }
 
+
 @media (max-width: 767px) {
 }
 
@@ -1062,6 +1324,7 @@ margin-right: 10px;
     width: 220px;
     left: 100px;
     z-index: 99999999;
+	
 }
 
 .navbar-default {

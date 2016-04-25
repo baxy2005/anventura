@@ -52,7 +52,7 @@
 <main>
 <div class="main-bar">
 	<div class="padding">
-      <img src="images/aventura-budapest.svg" alt=""/>
+      <img class="budapest" src="images/aventura-budapest.svg" alt=""/>
          <div class="aventura-brand">
              <img class="hidden-sm hidden-xs" src="images/aventura-brand-wide.svg" alt=""/> 
              <div class="aventura-tube">
@@ -77,6 +77,24 @@
         </div>
     </div>
     <div class="container-fluid">
+        <div class="row">
+        <div class="col-xs-12">
+        	<div class="form-opening">
+                <h2>Book Now</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Date of check in</label>
+                        <input type="email" class="form-control checkIn" id="exampleInputEmail1" placeholder="Choose date">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Number of nights</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="1">
+                    </div>
+                    <button type="submit" class="btn btn-default btn-form">Check Availability</button>
+                </form>    
+                </div>
+        </div>
+    </div><!-- form  row --> 
         <div class="box africa-room">
         	<div class=" col-md-4 col-lg-4 hidden-sm hidden-xs">
             </div><!--left grid-->
@@ -557,6 +575,55 @@ We stayed in the Retro Apartment for a long weekend and loved it. The apartment 
         </div><!--general info-->
     </div> <!--container-fluid-->
 </main><!--main-->
+    <footer class="container-fluid">
+        <div class="box gray">
+            	<div class="flex">
+            		<div class="col-sm-8 col-md-8 col-lg-8">
+                    		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4>Aventura</h4>
+                                <ul class="nav">
+                                	<li><a href="">free bed</a></li>
+                                	<li><a href="">useful links</a></li>
+                                	<li><a href="">gay guide</a></li>
+                                	<li><a href="">press material</a></li>
+                                	<li><a href="">partner and other hostel</a></li>
+                                	<li><a href="">policy</a></li>
+                                	<li><a href="">review</a></li>
+                                </ul>	
+                            </div>
+                    		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4>Need Help?</h4>
+                                <ul class="nav">
+                                	<li><a href=""><span>E-mail</span> info@aventurahostel.com</a></li>
+                                	<li><a href=""><span>Phone</span> +36 1 239 07 82</a></li>
+                                	<li><a href=""><span>Online</span> Skype: aventurahostel</a></li>
+                                </ul>	
+                            </div>
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <h4>Follow Us</h4>
+                                <ul class="nav social">
+                                	<li class="facebook"><a href="https://www.facebook.com/pages/Aventura-Boutique-Hostel-Budapest/103038126398807" target="_blank">facebook</a></li>
+                                	<li class="twitter"><a href="https://twitter.com/AventuraHostel" target="_blank">twitter</a></li>
+                                	<li class="pinterest"><a href="https://www.pinterest.com/aventurahostel/" target="_blank">pinterest</a></li>
+                                	<li class="tripadvisor"><a href="http://www.tripadvisor.com/Hotel_Review-g274887-d626296-Reviews-Aventura_Boutique_Hostel-Budapest_Central_Hungary.html" target="_blank">tripadvisor</a></li>
+                                  <li class="googlePlus"><a href="https://plus.google.com/+AventuraBoutiqueHostelBudapest/about" target="_blank">googlePlus</a></li>
+                                </ul>
+                                <h4>Partners</h4>
+                            </div>
+                    </div>
+            		<div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-md-12 col-lg-12 mini-brand">
+                            	<i><img src="images/aventura-brand-icon-footer.svg" alt=""/></i>
+                            	<p>Copyright ©2016 <br>
+                                        Aventura Boutique Hostel Budapset<br>
+                                        Website design by <a href="http://www.varadi.tv" target="_blank">Varadi </a><br>
+                                         Photos by <a href="http://www.aronerdohati.com" target="_blank">Aron Erdohati</a><br>
+                                          Developed by <a href="http://www.monster-code.com" target="new">Monster-Code</a><br>
+                      </div>
+                    </div>
+                    </div>
+        </div><!--box-->
+    </footer><!--footer-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/respond.js"></script>
@@ -566,7 +633,6 @@ We stayed in the Retro Apartment for a long weekend and loved it. The apartment 
 <script type="text/javascript" src="js/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.flip.min.js"></script>
 <script src="js/script.js"></script>
 <script src="http://localhost:35729/livereload.js"></script>
 
