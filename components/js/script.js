@@ -21,7 +21,6 @@ $('.owl-rooms-aps').owlCarousel({
 });
 
 $('.owl-news').owlCarousel({
-    items:1,
     loop:true,
 	autoplay: false,
 	nav:false,
@@ -52,6 +51,31 @@ $('.owl-news').owlCarousel({
     }
 
 });
+$('.owl-packages').owlCarousel({
+    items:1,
+    loop:true,
+	autoplay: false,
+	nav:false,
+		 responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        550:{
+            items:2,
+            nav:false
+        },
+
+        992:{
+            items:3,
+            nav:false,
+        },
+
+    }
+
+});
+
 
 $('.owl-carousel-awards').owlCarousel({
     lazyLoad:true,
@@ -196,5 +220,8 @@ $('.navmenu-default ul.nav li.dropdown').hover(function() {
 });*/
 
 
+	$(".card").flip({
+  trigger: 'hover'
+});
 
 

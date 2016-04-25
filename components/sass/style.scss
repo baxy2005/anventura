@@ -126,7 +126,7 @@ margin-top: 9px;
 	h1 {
 		color: $color-white;
 		font-size: 32px;
-		font-weight: normal;
+		font-weight: 200;
 		margin-bottom: 20px;
 		margin-top: 0px;
 	}
@@ -201,6 +201,301 @@ margin-top: 9px;
 		margin-bottom: 20px;
 	}
 	}
+	
+	/*general info opening directions*/
+	.direction {
+	.img-rounded	{
+		border-radius: 12px;
+	}
+	}
+	
+	/*general info opening discount*/
+	
+	.packages {
+		padding-bottom: 0;
+		.flex {
+			display: flex;
+			flex-direction:row;
+			justify-content: space-around;
+		}
+		.item{
+			margin-right: 5px;
+			margin-left: 5px;
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+		
+		.col-lg-12 {
+			margin-top: -20px
+		}
+		.owl-item {
+			padding-bottom: 30px;
+		}
+		
+		
+		
+		.owl-controls {
+			@media (min-width: 992px) {
+			display: none;
+			}
+		}
+	}
+	
+	.discount-box {
+	width: 100%;
+	min-height: 260px;
+	background-color: $color-primary;
+	border-radius: 12px;
+	background-image: url(../images/aventura-discounts-bg.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 143px 143px;
+	text-align: center;
+	
+}
+ .discount-box h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 22px;	
+font-weight: normal;
+text-align: center;
+padding-top: 7px;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+.packages .discount {
+	position: relative;
+	margin-top: 22px;
+	text-align: center;
+	width: 100%;
+}
+.packages .discount h3 {
+	font-size: 72px;
+	font-weight: bold;
+	letter-spacing: 0em;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	color:  $color-primary;
+	margin:0;
+}
+
+.packages .discount span {
+	font-size: 24px;
+	font-weight: lighter;
+	letter-spacing: 0em;
+
+}
+.packages .discount h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 0em;
+	color: #8DC644;
+	margin-top: -8px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.packages .discount  p {
+	font-size: 13px;	
+	color: #8DC644;
+	font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
+	margin-top: -12px;
+}
+
+.discount-box .btn, .discount-box-back .btn{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: -2px;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-moz-user-select: none;
+}
+
+.discount-box .btn-default, .discount-box-back .btn-default {
+    border: medium none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 6px 22px;
+	background-color: rgba(255, 255, 255, 0.24);
+	color: white;
+	position: relative;
+top: 30px;
+width: 80% !important;}
+
+
+	
+.extras {
+margin-top: 20px;	
+}
+		
+.discount-box-back .btn-default {
+	top: 5px;	
+}
+
+	.discount-box-back {
+	width: 178px;
+	height: 260px;
+	background-color: #6FA030;
+	border-radius: 12px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.discount-box-back h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 22px;	
+font-weight: normal;
+text-align: center;
+padding-top: 7px;
+}
+	
+	.discount-box-back li {
+		display: inline;
+	}
+	
+	.nav {
+padding-left: 0px;
+margin-bottom: 0px;
+list-style: outside none none;
+	}
+	.facWraper {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
+}
+
+.facWraper img {
+	 width: 44px;
+    height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.facWraper p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+	color: white;
+}
+.extras {
+margin-top: 20px;	
+}
+		
+.discount-box-back .btn-default {
+	top: 5px;	
+}
+
+
+
+/*new flip*/
+/* entire container, keeps perspective */
+.flip-container {
+			-webkit-perspective: 1000;
+			-moz-perspective: 1000;
+			-ms-perspective: 1000;
+			perspective: 1000;
+
+			-ms-transform: perspective(1000px);
+			-moz-transform: perspective(1000px);
+    			-moz-transform-style: preserve-3d; 
+    			-ms-transform-style: preserve-3d; 
+
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container,  .front,  .back {
+	width: 100%;
+	min-height: 280px;
+}
+
+/* flip speed goes here */
+ .flipper {
+			-webkit-transition: 0.6s;
+			-webkit-transform-style: preserve-3d;
+			-ms-transition: 0.6s;
+
+			-moz-transition: 0.6s;
+			-moz-transform: perspective(1000px);
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+
+			transition: 0.6s;
+			transform-style: preserve-3d;
+
+			position: relative;
+
+}
+
+/* hide back of pane during swap */
+.front, .back {
+			-webkit-backface-visibility: hidden;
+			-moz-backface-visibility: hidden;
+			-ms-backface-visibility: hidden;
+			backface-visibility: hidden;
+
+		    -webkit-transition: 0.6s;
+		    -webkit-transform-style: preserve-3d;
+		    -webkit-transform: rotateY(0deg);
+
+		    -moz-transition: 0.6s;
+		    -moz-transform-style: preserve-3d;
+		    -moz-transform: rotateY(0deg);
+
+		    -o-transition: 0.6s;
+		    -o-transform-style: preserve-3d;
+		    -o-transform: rotateY(0deg);
+
+		    -ms-transition: 0.6s;
+		    -ms-transform-style: preserve-3d;
+		    -ms-transform: rotateY(0deg);
+
+		    transition: 0.6s;
+		    transform-style: preserve-3d;
+		    transform: rotateY(0deg);
+
+			position: absolute;
+			top: 0;
+			left: 0;}
+
+/* front pane, placed above back */
+ .front {
+			-webkit-transform: rotateY(0deg);
+			-ms-transform: rotateY(0deg);
+			z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+			-webkit-transform: rotateY(-180deg);
+		    -moz-transform: rotateY(-180deg);
+		    -o-transform: rotateY(-180deg);
+		    -ms-transform: rotateY(-180deg);
+		    transform: rotateY(-180deg);
+
+}
+
+.flip-container {
+float: left;
+margin-bottom: 5px;
+
+}
+
+.flip-container.last {
+	margin-right: 0px !important;	
+}
+
+.card.last{
+margin-right: 0px !important;	
+}
 	
 	/*general info opening awards*/
 	

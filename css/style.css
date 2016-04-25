@@ -149,7 +149,7 @@ margin-top: 0;
 .box-general-info h1 {
   color: #FFFFFF;
   font-size: 32px;
-  font-weight: normal;
+  font-weight: 200;
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -233,30 +233,346 @@ margin-top: 0;
   margin-bottom: 20px;
 }
 
+/*general info opening directions*/
+/* line 207, ../components/sass/style.scss */
+.direction .img-rounded {
+  border-radius: 12px;
+}
+
+/*general info opening discount*/
+/* line 214, ../components/sass/style.scss */
+.packages {
+  padding-bottom: 0;
+}
+/* line 216, ../components/sass/style.scss */
+.packages .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* line 221, ../components/sass/style.scss */
+.packages .item {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+/* line 228, ../components/sass/style.scss */
+.packages .col-lg-12 {
+  margin-top: -20px;
+}
+/* line 231, ../components/sass/style.scss */
+.packages .owl-item {
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  /* line 237, ../components/sass/style.scss */
+  .packages .owl-controls {
+    display: none;
+  }
+}
+
+/* line 244, ../components/sass/style.scss */
+.discount-box {
+  width: 100%;
+  min-height: 260px;
+  background-color: #8DC644;
+  border-radius: 12px;
+  background-image: url(../images/aventura-discounts-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 143px 143px;
+  text-align: center;
+}
+
+/* line 256, ../components/sass/style.scss */
+.discount-box h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 22px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 7px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* line 268, ../components/sass/style.scss */
+.packages .discount {
+  position: relative;
+  margin-top: 22px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 274, ../components/sass/style.scss */
+.packages .discount h3 {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 0em;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  color: #8DC644;
+  margin: 0;
+}
+
+/* line 284, ../components/sass/style.scss */
+.packages .discount span {
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 0em;
+}
+
+/* line 290, ../components/sass/style.scss */
+.packages .discount h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 0em;
+  color: #8DC644;
+  margin-top: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 298, ../components/sass/style.scss */
+.packages .discount p {
+  font-size: 13px;
+  color: #8DC644;
+  font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
+  margin-top: -12px;
+}
+
+/* line 305, ../components/sass/style.scss */
+.discount-box .btn, .discount-box-back .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: -2px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-user-select: none;
+}
+
+/* line 319, ../components/sass/style.scss */
+.discount-box .btn-default, .discount-box-back .btn-default {
+  border: medium none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 22px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: white;
+  position: relative;
+  top: 30px;
+  width: 80% !important;
+}
+
+/* line 332, ../components/sass/style.scss */
+.extras {
+  margin-top: 20px;
+}
+
+/* line 336, ../components/sass/style.scss */
+.discount-box-back .btn-default {
+  top: 5px;
+}
+
+/* line 340, ../components/sass/style.scss */
+.discount-box-back {
+  width: 178px;
+  height: 260px;
+  background-color: #6FA030;
+  border-radius: 12px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* line 349, ../components/sass/style.scss */
+.discount-box-back h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 22px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 7px;
+}
+
+/* line 359, ../components/sass/style.scss */
+.discount-box-back li {
+  display: inline;
+}
+
+/* line 363, ../components/sass/style.scss */
+.nav {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: outside none none;
+}
+
+/* line 368, ../components/sass/style.scss */
+.facWraper {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
+}
+
+/* line 375, ../components/sass/style.scss */
+.facWraper img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 381, ../components/sass/style.scss */
+.facWraper p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* line 386, ../components/sass/style.scss */
+.extras {
+  margin-top: 20px;
+}
+
+/* line 390, ../components/sass/style.scss */
+.discount-box-back .btn-default {
+  top: 5px;
+}
+
+/*new flip*/
+/* entire container, keeps perspective */
+/* line 398, ../components/sass/style.scss */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+  -ms-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+}
+
+/* flip the pane when hovered */
+/* line 411, ../components/sass/style.scss */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+/* line 415, ../components/sass/style.scss */
+.flip-container, .front, .back {
+  width: 100%;
+  min-height: 280px;
+}
+
+/* flip speed goes here */
+/* line 421, ../components/sass/style.scss */
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+/* line 439, ../components/sass/style.scss */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -moz-transform: rotateY(0deg);
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+  -o-transform: rotateY(0deg);
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+  -ms-transform: rotateY(0deg);
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+/* line 470, ../components/sass/style.scss */
+.front {
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+/* line 477, ../components/sass/style.scss */
+.back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+/* line 486, ../components/sass/style.scss */
+.flip-container {
+  float: left;
+  margin-bottom: 5px;
+}
+
+/* line 492, ../components/sass/style.scss */
+.flip-container.last {
+  margin-right: 0px !important;
+}
+
+/* line 496, ../components/sass/style.scss */
+.card.last {
+  margin-right: 0px !important;
+}
+
 /*general info opening awards*/
-/* line 208, ../components/sass/style.scss */
+/* line 503, ../components/sass/style.scss */
 .awards img {
   border-radius: 12px;
   border: 1px solid #cccccc;
 }
-/* line 212, ../components/sass/style.scss */
+/* line 507, ../components/sass/style.scss */
 .awards .owl-carousel .owl-item {
   text-align: center;
 }
-/* line 215, ../components/sass/style.scss */
+/* line 510, ../components/sass/style.scss */
 .awards .row {
   width: 100%;
   margin: 0 auto;
 }
-/* line 219, ../components/sass/style.scss */
+/* line 514, ../components/sass/style.scss */
 .awards .row.row-margin {
   margin-bottom: 20px;
 }
-/* line 222, ../components/sass/style.scss */
+/* line 517, ../components/sass/style.scss */
 .awards .owl-theme .owl-controls .owl-nav {
   display: none;
 }
-/* line 225, ../components/sass/style.scss */
+/* line 520, ../components/sass/style.scss */
 .awards h3 {
   font-size: 18px;
   margin-top: 0px;
@@ -265,27 +581,27 @@ margin-top: 0;
 }
 
 /*general info opening awards*/
-/* line 236, ../components/sass/style.scss */
+/* line 531, ../components/sass/style.scss */
 .news h3, .reviews h3 {
   font-size: 18px;
   color: #8DC644;
   font-size: 18px;
 }
 @media (min-width: 992px) {
-  /* line 236, ../components/sass/style.scss */
+  /* line 531, ../components/sass/style.scss */
   .news h3, .reviews h3 {
     margin-top: 0px;
   }
 }
 
 /*general info opening reviews*/
-/* line 250, ../components/sass/style.scss */
+/* line 545, ../components/sass/style.scss */
 .box-bouble-outline {
   background-color: transparent;
   border: solid 2px #8DC644;
 }
 
-/* line 256, ../components/sass/style.scss */
+/* line 551, ../components/sass/style.scss */
 .box-bouble-outline:before {
   position: relative;
   background-image: url(../images/aventura-triangle-green@2x.png);
@@ -296,20 +612,20 @@ margin-top: 0;
   margin-bottom: 30px;
 }
 
-/* line 267, ../components/sass/style.scss */
+/* line 562, ../components/sass/style.scss */
 .reviews h3, .reviews small {
   text-align: center;
 }
-/* line 270, ../components/sass/style.scss */
+/* line 565, ../components/sass/style.scss */
 .reviews small {
   display: block;
   margin-bottom: 20px;
 }
-/* line 274, ../components/sass/style.scss */
+/* line 569, ../components/sass/style.scss */
 .reviews p {
   margin-bottom: 0px;
 }
-/* line 277, ../components/sass/style.scss */
+/* line 572, ../components/sass/style.scss */
 .reviews .fa-user {
   font-size: 28px;
   text-align: center;
@@ -318,7 +634,7 @@ margin-top: 0;
   display: block;
   margin-bottom: 10px;
 }
-/* line 285, ../components/sass/style.scss */
+/* line 580, ../components/sass/style.scss */
 .reviews i {
   width: 40px;
   height: 40px;
@@ -328,54 +644,54 @@ margin-top: 0;
 }
 
 /*rooms and apps opening*/
-/* line 295, ../components/sass/style.scss */
+/* line 590, ../components/sass/style.scss */
 .box {
   min-height: 424px;
   border-radius: 12px;
   margin-bottom: 10px;
 }
 
-/* line 300, ../components/sass/style.scss */
+/* line 595, ../components/sass/style.scss */
 .general-info {
   background-color: #8DC644;
 }
 
-/* line 304, ../components/sass/style.scss */
+/* line 599, ../components/sass/style.scss */
 .africa-room {
   background-color: #FFBC01 !important;
 }
 
-/* line 307, ../components/sass/style.scss */
+/* line 602, ../components/sass/style.scss */
 .india-room {
   background-color: #73108E;
 }
 
-/* line 310, ../components/sass/style.scss */
+/* line 605, ../components/sass/style.scss */
 .space-room {
   background-color: #132060;
 }
 
-/* line 313, ../components/sass/style.scss */
+/* line 608, ../components/sass/style.scss */
 .japan-room {
   background-color: #E50000;
 }
 
-/* line 316, ../components/sass/style.scss */
+/* line 611, ../components/sass/style.scss */
 .rouge-ap {
   background-color: #BE0000;
 }
 
-/* line 319, ../components/sass/style.scss */
+/* line 614, ../components/sass/style.scss */
 .art-retro-ap {
   background-color: #EB8300;
 }
 
-/* line 322, ../components/sass/style.scss */
+/* line 617, ../components/sass/style.scss */
 .family-ap {
   background-color: #00B7EB;
 }
 
-/* line 325, ../components/sass/style.scss */
+/* line 620, ../components/sass/style.scss */
 .logo {
   width: 150px;
   height: 150px;
@@ -387,122 +703,122 @@ margin-top: 0;
   z-index: 5;
   background-size: 1184px 149px;
 }
-/* line 337, ../components/sass/style.scss */
+/* line 632, ../components/sass/style.scss */
 .logo .price {
   padding-top: 88px;
 }
-/* line 340, ../components/sass/style.scss */
+/* line 635, ../components/sass/style.scss */
 .logo h4 {
   margin-top: -5px;
   font-size: 29px;
   font-weight: bold;
 }
-/* line 345, ../components/sass/style.scss */
+/* line 640, ../components/sass/style.scss */
 .logo .euro {
   font-size: 15px;
   font-weight: lighter;
 }
-/* line 349, ../components/sass/style.scss */
+/* line 644, ../components/sass/style.scss */
 .logo .small {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 354, ../components/sass/style.scss */
+/* line 649, ../components/sass/style.scss */
 .logo.africaLogo h4 {
   color: #FFBC01;
 }
 
-/* line 357, ../components/sass/style.scss */
+/* line 652, ../components/sass/style.scss */
 .logo.indiaLogo h4 {
   color: #73108E;
 }
 
-/* line 360, ../components/sass/style.scss */
+/* line 655, ../components/sass/style.scss */
 .logo.spaceLogo h4 {
   color: #132060;
 }
 
-/* line 363, ../components/sass/style.scss */
+/* line 658, ../components/sass/style.scss */
 .logo.japanLogo h4 {
   color: #E50000;
 }
 
-/* line 366, ../components/sass/style.scss */
+/* line 661, ../components/sass/style.scss */
 .logo.rougeLogo h4 {
   color: #BE0000;
 }
 
-/* line 369, ../components/sass/style.scss */
+/* line 664, ../components/sass/style.scss */
 .logo.artLogo h4 {
   color: #EB8300;
 }
 
-/* line 372, ../components/sass/style.scss */
+/* line 667, ../components/sass/style.scss */
 .logo.retroLogo h4 {
   color: #EB8300;
 }
 
-/* line 375, ../components/sass/style.scss */
+/* line 670, ../components/sass/style.scss */
 .logo.familyLogo h4 {
   color: #00B7EB;
 }
 
-/* line 379, ../components/sass/style.scss */
+/* line 674, ../components/sass/style.scss */
 .logo.africaLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: 0px center;
 }
 
-/* line 383, ../components/sass/style.scss */
+/* line 678, ../components/sass/style.scss */
 .logo.indiaLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -147px center;
 }
 
-/* line 387, ../components/sass/style.scss */
+/* line 682, ../components/sass/style.scss */
 .logo.spaceLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -443px center;
 }
 
-/* line 391, ../components/sass/style.scss */
+/* line 686, ../components/sass/style.scss */
 .logo.japanLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -295px center;
 }
 
-/* line 395, ../components/sass/style.scss */
+/* line 690, ../components/sass/style.scss */
 .logo.rougeLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -591px center;
 }
 
-/* line 399, ../components/sass/style.scss */
+/* line 694, ../components/sass/style.scss */
 .logo.artLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -887px center;
 }
 
-/* line 403, ../components/sass/style.scss */
+/* line 698, ../components/sass/style.scss */
 .logo.retroLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -739px center;
 }
 
-/* line 407, ../components/sass/style.scss */
+/* line 702, ../components/sass/style.scss */
 .logo.familyLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -1035px center;
 }
 
-/* line 412, ../components/sass/style.scss */
+/* line 707, ../components/sass/style.scss */
 .room-ap-row {
   display: table !important;
   width: 100%;
   margin: 0;
 }
-/* line 416, ../components/sass/style.scss */
+/* line 711, ../components/sass/style.scss */
 .room-ap-row ul li {
   min-height: 35px;
   font-size: 20px;
@@ -511,22 +827,22 @@ margin-top: 0;
   margin-bottom: 10px;
   display: inline-block;
 }
-/* line 424, ../components/sass/style.scss */
+/* line 719, ../components/sass/style.scss */
 .room-ap-row ul li span {
   font-size: 12px;
   color: #FFFFFF;
   line-height: 80%;
 }
-/* line 429, ../components/sass/style.scss */
+/* line 724, ../components/sass/style.scss */
 .room-ap-row ul li:first-child {
   width: auto;
   margin-right: 10px;
 }
-/* line 433, ../components/sass/style.scss */
+/* line 728, ../components/sass/style.scss */
 .room-ap-row ul li:last-child {
   width: auto;
 }
-/* line 436, ../components/sass/style.scss */
+/* line 731, ../components/sass/style.scss */
 .room-ap-row .icon {
   width: 30px;
   height: 30px;
@@ -539,28 +855,28 @@ margin-top: 0;
   justify-content: center;
   margin-right: 10px;
 }
-/* line 448, ../components/sass/style.scss */
+/* line 743, ../components/sass/style.scss */
 .room-ap-row ul li img {
   width: 70%;
   height: 70%;
 }
-/* line 452, ../components/sass/style.scss */
+/* line 747, ../components/sass/style.scss */
 .room-ap-row .nav-pills {
   margin-bottom: 5px;
   margin-top: 15px;
   text-align: center;
 }
-/* line 456, ../components/sass/style.scss */
+/* line 751, ../components/sass/style.scss */
 .room-ap-row .nav-pills li {
   float: none;
 }
 
-/* line 462, ../components/sass/style.scss */
+/* line 757, ../components/sass/style.scss */
 .box .media-left {
   padding-right: 0;
 }
 
-/* line 466, ../components/sass/style.scss */
+/* line 761, ../components/sass/style.scss */
 .box .btn {
   font-size: 18px;
   padding: 8px 27px;
@@ -569,13 +885,13 @@ margin-top: 0;
   margin-bottom: 10px;
 }
 
-/* line 475, ../components/sass/style.scss */
+/* line 770, ../components/sass/style.scss */
 .box .btn-default {
   border: none;
   font-weight: bold;
 }
 
-/* line 479, ../components/sass/style.scss */
+/* line 774, ../components/sass/style.scss */
 .box .btn-details {
   border: 2px solid #FFFFFF;
   background-color: transparent;
@@ -584,49 +900,49 @@ margin-top: 0;
   margin-right: 5px;
 }
 
-/* line 486, ../components/sass/style.scss */
+/* line 781, ../components/sass/style.scss */
 .africa-room .btn-default {
   color: #FFBC01;
 }
 
-/* line 489, ../components/sass/style.scss */
+/* line 784, ../components/sass/style.scss */
 .india-room .btn-default {
   color: #73108E;
 }
 
-/* line 492, ../components/sass/style.scss */
+/* line 787, ../components/sass/style.scss */
 .space-room .btn-default {
   color: #132060;
 }
 
-/* line 495, ../components/sass/style.scss */
+/* line 790, ../components/sass/style.scss */
 .japan-room .btn-default {
   color: #E50000;
 }
 
-/* line 498, ../components/sass/style.scss */
+/* line 793, ../components/sass/style.scss */
 .rouge-ap .btn-default {
   color: #BE0000;
 }
 
-/* line 501, ../components/sass/style.scss */
+/* line 796, ../components/sass/style.scss */
 .art-retro-ap .btn-default {
   color: #EB8300;
 }
 
-/* line 504, ../components/sass/style.scss */
+/* line 799, ../components/sass/style.scss */
 .family-ap .btn-default {
   color: #00B7EB;
 }
 
-/* line 507, ../components/sass/style.scss */
+/* line 802, ../components/sass/style.scss */
 .padding-xs {
   padding-right: 15px;
   padding-left: 15px;
 }
 
 @media (min-width: 0) {
-  /* line 519, ../components/sass/style.scss */
+  /* line 814, ../components/sass/style.scss */
   .navbar-toggle {
     display: block;
     /* force showing the toggle */
@@ -634,22 +950,22 @@ margin-top: 0;
 }
 @media (min-width: 992px) {
   /*general info opening awards*/
-  /* line 526, ../components/sass/style.scss */
+  /* line 821, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-dots, .news .owl-theme .owl-controls .owl-dots, .reviews .owl-theme .owl-controls .owl-dots {
     display: none !important;
   }
 
-  /* line 531, ../components/sass/style.scss */
+  /* line 826, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-prev, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     left: -35px;
     background-image: url(../images/aventura-carusel-arrow-left.svg);
   }
-  /* line 536, ../components/sass/style.scss */
+  /* line 831, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-next {
     right: -35px;
     background-image: url(../images/aventura-carusel-arrow-right.svg);
   }
-  /* line 540, ../components/sass/style.scss */
+  /* line 835, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-next, .awards .owl-theme .owl-controls .owl-nav .owl-prev, .news .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     width: 22px;
     height: 22px;
@@ -660,68 +976,68 @@ margin-top: 0;
     background-position: center center;
     background-repeat: no-repeat;
   }
-  /* line 550, ../components/sass/style.scss */
+  /* line 845, ../components/sass/style.scss */
   .awards .row, .news .row, .reviews .row {
     width: 93%;
     margin: 0 auto;
   }
-  /* line 554, ../components/sass/style.scss */
+  /* line 849, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav, .news .owl-theme .owl-controls .owl-nav, .reviews .owl-theme .owl-controls .owl-nav {
     display: block;
   }
 
   /*general info opening news*/
-  /* line 561, ../components/sass/style.scss */
+  /* line 856, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     right: 35px !important;
     left: auto;
     background-image: url(../images/aventura-carusel-arrow-left.svg);
   }
-  /* line 566, ../components/sass/style.scss */
+  /* line 861, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-next {
     right: 10px;
     background-image: url(../images/aventura-carusel-arrow-right.svg);
   }
-  /* line 571, ../components/sass/style.scss */
+  /* line 866, ../components/sass/style.scss */
   .news .row, .reviews .row {
     width: auto;
     margin: auto;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 577, ../components/sass/style.scss */
+  /* line 872, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     top: 0px;
     margin: 0px;
   }
 
-  /* line 583, ../components/sass/style.scss */
+  /* line 878, ../components/sass/style.scss */
   .facilities .nav li {
     width: 16.6%;
     justify-content: center;
   }
 
-  /* line 588, ../components/sass/style.scss */
+  /* line 883, ../components/sass/style.scss */
   .padding-right-zero {
     padding-right: 0px;
     padding-left: 15px;
   }
 
-  /* line 592, ../components/sass/style.scss */
+  /* line 887, ../components/sass/style.scss */
   .padding-xs {
     padding-right: 0px;
     padding-left: 0px;
   }
 
   /*rooms and apps opening*/
-  /* line 598, ../components/sass/style.scss */
+  /* line 893, ../components/sass/style.scss */
   .box {
     min-height: 350px;
     border-radius: 12px;
     margin-bottom: 10px;
   }
 
-  /* line 604, ../components/sass/style.scss */
+  /* line 899, ../components/sass/style.scss */
   .logo {
     width: 230px;
     height: 230px;
@@ -735,81 +1051,81 @@ margin-top: 0;
     background-size: 1835px 231px;
     margin-top: 0px;
   }
-  /* line 617, ../components/sass/style.scss */
+  /* line 912, ../components/sass/style.scss */
   .logo .price {
     padding-top: 140px;
   }
-  /* line 620, ../components/sass/style.scss */
+  /* line 915, ../components/sass/style.scss */
   .logo h4 {
     margin-top: 0px;
     font-size: 43px;
     font-weight: bold;
   }
-  /* line 625, ../components/sass/style.scss */
+  /* line 920, ../components/sass/style.scss */
   .logo .euro {
     font-size: 15px;
     font-weight: lighter;
   }
-  /* line 629, ../components/sass/style.scss */
+  /* line 924, ../components/sass/style.scss */
   .logo .small {
     margin: 0px;
     padding: 0px;
   }
 
-  /* line 635, ../components/sass/style.scss */
+  /* line 930, ../components/sass/style.scss */
   .logo.africaLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: 0px center;
   }
 
-  /* line 639, ../components/sass/style.scss */
+  /* line 934, ../components/sass/style.scss */
   .logo.indiaLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -229px center;
   }
 
-  /* line 643, ../components/sass/style.scss */
+  /* line 938, ../components/sass/style.scss */
   .logo.spaceLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -688px center;
   }
 
-  /* line 647, ../components/sass/style.scss */
+  /* line 942, ../components/sass/style.scss */
   .logo.japanLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -295px center;
   }
 
-  /* line 651, ../components/sass/style.scss */
+  /* line 946, ../components/sass/style.scss */
   .logo.rougeLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -591px center;
   }
 
-  /* line 655, ../components/sass/style.scss */
+  /* line 950, ../components/sass/style.scss */
   .logo.artLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -887px center;
   }
 
-  /* line 659, ../components/sass/style.scss */
+  /* line 954, ../components/sass/style.scss */
   .logo.retroLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -739px center;
   }
 
-  /* line 663, ../components/sass/style.scss */
+  /* line 958, ../components/sass/style.scss */
   .logo.familyLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -1035px center;
   }
 
-  /* line 668, ../components/sass/style.scss */
+  /* line 963, ../components/sass/style.scss */
   .room-ap-row {
     display: table !important;
     height: 350px;
   }
-  /* line 671, ../components/sass/style.scss */
+  /* line 966, ../components/sass/style.scss */
   .room-ap-row ul li {
     min-height: 47px;
     font-size: 20px;
@@ -817,21 +1133,21 @@ margin-top: 0;
     line-height: 100%;
     margin-bottom: 10px;
   }
-  /* line 678, ../components/sass/style.scss */
+  /* line 973, ../components/sass/style.scss */
   .room-ap-row ul li span {
     font-size: 14px;
     color: #FFFFFF;
   }
-  /* line 682, ../components/sass/style.scss */
+  /* line 977, ../components/sass/style.scss */
   .room-ap-row ul li:first-child {
     width: 177px;
     margin-right: 0px;
   }
-  /* line 686, ../components/sass/style.scss */
+  /* line 981, ../components/sass/style.scss */
   .room-ap-row ul li:last-child {
     width: 137px;
   }
-  /* line 689, ../components/sass/style.scss */
+  /* line 984, ../components/sass/style.scss */
   .room-ap-row .icon {
     width: 47px;
     height: 47px;
@@ -844,13 +1160,13 @@ margin-top: 0;
     justify-content: center;
     margin-right: 13px;
   }
-  /* line 703, ../components/sass/style.scss */
+  /* line 998, ../components/sass/style.scss */
   .room-ap-row .nav-pills {
     margin-bottom: 10px;
     text-align: left;
   }
 
-  /* line 709, ../components/sass/style.scss */
+  /* line 1004, ../components/sass/style.scss */
   .box .btn {
     font-size: 18px;
     padding: 8px 27px;
@@ -859,13 +1175,13 @@ margin-top: 0;
     margin-bottom: 10px;
   }
 
-  /* line 718, ../components/sass/style.scss */
+  /* line 1013, ../components/sass/style.scss */
   .box .btn-default {
     border: none;
     font-weight: bold;
   }
 
-  /* line 722, ../components/sass/style.scss */
+  /* line 1017, ../components/sass/style.scss */
   .box .btn-details {
     border: 2px solid #FFFFFF;
     background-color: transparent;
@@ -875,7 +1191,7 @@ margin-top: 0;
   }
 
   /* main-bar */
-  /* line 731, ../components/sass/style.scss */
+  /* line 1026, ../components/sass/style.scss */
   .main-bar {
     background-color: #8DC644;
     -moz-border-radius-bottomright: 12px;
@@ -892,11 +1208,11 @@ margin-top: 0;
     left: 79px;
     z-index: 999999;
   }
-  /* line 746, ../components/sass/style.scss */
+  /* line 1041, ../components/sass/style.scss */
   .main-bar .padding {
     padding: 0 21px 21px 21px;
   }
-  /* line 749, ../components/sass/style.scss */
+  /* line 1044, ../components/sass/style.scss */
   .main-bar .aventura-brand {
     background-color: #FFFFFF;
     min-height: 250px;
@@ -905,14 +1221,14 @@ margin-top: 0;
     text-align: center;
     padding: 12px 0;
   }
-  /* line 757, ../components/sass/style.scss */
+  /* line 1052, ../components/sass/style.scss */
   .main-bar .aventura-tube {
     position: absolute;
     left: 6px;
     margin-top: 10px;
   }
 
-  /* line 764, ../components/sass/style.scss */
+  /* line 1059, ../components/sass/style.scss */
   .navbar-fixed-top {
     top: 330px;
     border-width: 0 0 1px;
@@ -921,13 +1237,13 @@ margin-top: 0;
     z-index: 99999999;
   }
 
-  /* line 772, ../components/sass/style.scss */
+  /* line 1067, ../components/sass/style.scss */
   .navbar-default {
     background-color: transparent;
     border: none;
   }
 
-  /* line 776, ../components/sass/style.scss */
+  /* line 1071, ../components/sass/style.scss */
   .navbar-toggle {
     border: none;
     border-radius: 7px;
@@ -938,7 +1254,7 @@ margin-top: 0;
     margin-left: 0px;
     float: left !important;
   }
-  /* line 785, ../components/sass/style.scss */
+  /* line 1080, ../components/sass/style.scss */
   .navbar-toggle p {
     float: right;
     margin-top: -21px;
@@ -946,59 +1262,59 @@ margin-top: 0;
     color: #8DC644;
     font-weight: bold;
   }
-  /* line 793, ../components/sass/style.scss */
+  /* line 1088, ../components/sass/style.scss */
   .navbar-toggle .icon-bar {
     background-color: #8DC644 !important;
     margin-top: 5px;
     width: 18px;
   }
 
-  /* line 799, ../components/sass/style.scss */
+  /* line 1094, ../components/sass/style.scss */
   .navbar-nav {
     margin: 0 -15px;
   }
 
-  /* line 803, ../components/sass/style.scss */
+  /* line 1098, ../components/sass/style.scss */
   .navbarIcons {
     text-indent: -3000px;
   }
-  /* line 806, ../components/sass/style.scss */
+  /* line 1101, ../components/sass/style.scss */
   .navbarIcons li {
     background-repeat: no-repeat !important;
     width: 25px;
     margin-right: 6px;
     background-size: 131px 34px;
   }
-  /* line 813, ../components/sass/style.scss */
+  /* line 1108, ../components/sass/style.scss */
   .navbarIcons li.phone {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -11px center;
   }
-  /* line 817, ../components/sass/style.scss */
+  /* line 1112, ../components/sass/style.scss */
   .navbarIcons li.skype {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -50px center;
   }
-  /* line 821, ../components/sass/style.scss */
+  /* line 1116, ../components/sass/style.scss */
   .navbarIcons li.email {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     margin-right: 2px;
     background-position: -90px center;
   }
-  /* line 826, ../components/sass/style.scss */
+  /* line 1121, ../components/sass/style.scss */
   .navbarIcons li.google {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -133px center;
   }
 
-  /* line 832, ../components/sass/style.scss */
+  /* line 1127, ../components/sass/style.scss */
   .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 10px;
   }
 }
 @media (min-width: 500px) and (max-width: 991px) {
-  /* line 846, ../components/sass/style.scss */
+  /* line 1141, ../components/sass/style.scss */
   .facilities .nav li {
     width: 33%;
     justify-content: center;
@@ -1021,13 +1337,13 @@ margin-top: 0;
   }*/
 }
 @media (min-width: 1200px) {
-  /* line 879, ../components/sass/style.scss */
+  /* line 1174, ../components/sass/style.scss */
   .room-ap-row {
     margin-left: -60px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 886, ../components/sass/style.scss */
+  /* line 1181, ../components/sass/style.scss */
   .room-ap-row {
     margin-left: 20px;
   }
