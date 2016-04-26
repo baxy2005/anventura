@@ -31,6 +31,10 @@ margin-top: 0;
 */
 
 /* anim*/
+	.navbar-fixed-top-test {
+		 top: 0px !important;
+}
+
 .budapest, .main-bar{
 		-moz-transition: all .3s  ease-in-out;
 	-o-transition: all .3s  ease-in-out ;
@@ -38,12 +42,12 @@ margin-top: 0;
 	transition: all .3s ease-in-out ;
 
 }
- .navbar-fixed-top, .form-opening-moving{
+/* .navbar-fixed-top, .form-opening-moving{
 		-moz-transition: all .4s  ease-in-out;
 	-o-transition: all .4s  ease-in-out ;
 	-webkit-transition: all .4s  ease-in-out;
 	transition: all .4s ease-in-out ;
- }
+ }*/
 .budapest-off {
 	display: none;
 }
@@ -51,14 +55,14 @@ margin-top: 0;
 	display: none;
 }
 .aventura-brand {
-			-moz-transition: all .3s ;
-	-o-transition: all .3s ;
-	-webkit-transition: all .3s ;
-	transition: all .3s ;
+			-moz-transition: all .2s  ease ;
+	-o-transition: all .2s  ease ;
+	-webkit-transition: all .2s  ease;
+	transition: all .2s  ease ;
 }
 .aventura-brand-small { 
 min-height: 82px !important;
-margin-top: 0 !important;
+margin-top: -55px !important;
 border-top-right-radius:0px !important;
 border-top-left-radius: 0px !important;
 }
@@ -68,13 +72,13 @@ border-top-left-radius: 0px !important;
 	border-top-left-radius: 12px !important;
 }
 
-.navbar-fixed-top-moving {
-top: 120px !important;	
-}
+
 
 .form-opening-moving {
 	top: 185px !important;
 }
+
+
 
 /*footer*/
 
@@ -286,6 +290,24 @@ margin-top: 9px;
 
 /*form*/
 .form-opening {
+	
+	.form-opening-padding {
+		@media (min-width: 992px) {
+		padding:0 20px 20px 20px;
+				-moz-border-radius-bottomright: 12px;
+		-webkit-border-bottom-right-radius: 12px;
+		border-bottom-right-radius: 12px;
+		-moz-border-radius-bottomleft: 12px;
+		-webkit-border-bottom-left-radius: 12px;
+		border-bottom-left-radius: 12px;
+		background-color: $color-primary;
+				-moz-transition: all .3s  ease-in-out;
+	-o-transition: all .3s  ease-in-out ;
+	-webkit-transition: all .3s  ease-in-out;
+	transition: all .3s ease-in-out ;
+
+		}
+	}
 label {
     font-weight: normal;
 	font-size: 16px;
@@ -367,10 +389,11 @@ h2 {
 }
 	@media (min-width: 992px) {
 				position: fixed;
-				left: 99px;
+				left: 79px;
 				top: 385px;
 				z-index: 9999999;
-				width: 220px;
+				width: 262px;
+				
 	}
 }
 
@@ -859,12 +882,22 @@ margin-right: 0px !important;
 
 	.africa-room{
 	background-color: $color-africa !important;	
+	background-image: url(../images/aventura-africa-room-bg.svg);
+	background-position: left bottom;
+	background-repeat: repeat-x;
 	}
 	.india-room{
 	background-color: $color-india;	
+	background-image: url(../images/aventura-india-room-bg.svg), url(../images/aventura-india-room-bg-2.svg);
+	background-position: left bottom, 15px center;
+	background-repeat: repeat-x, no-repeat;
 	}
 .space-room{
 	background-color: $color-space;	
+	background-image: url(../images/aventura-space-room-bg.svg), url(../images/aventura-space-room-bg-2.svg);
+	background-position: left bottom, 30px 20px;
+	background-repeat: repeat-x, no-repeat;
+
 	}
 .japan-room{
 	background-color: $color-japan;	
@@ -1194,7 +1227,7 @@ margin-right: 5px;
 	background-position: 0px center; 
 }
 .logo.indiaLogo {
-	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg)	;
+	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
 	background-position: -229px center;  
 }
 .logo.spaceLogo {
@@ -1203,23 +1236,23 @@ margin-right: 5px;
 }
 .logo.japanLogo {
 	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
-	background-position: -295px center;  
+	background-position: -459px center;  
 }
 .logo.rougeLogo {
 	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
-	background-position: -591px center;	 
+	background-position: -917px center;	 
 }
 .logo.artLogo {
 	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
-	background-position: -887px center;	 	 
+	background-position: -1376px center;	 	 
 }
 .logo.retroLogo {
 	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
-	background-position: -739px center;	  
+	background-position: -1147px center;	  
 }
 .logo.familyLogo {
 	background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);	
-	background-position: -1035px center; 
+	background-position: -1606px center; 
 }
 		
 .room-ap-row {
@@ -1287,14 +1320,14 @@ margin-right: 10px;
 	/* main-bar */
 	.main-bar{
 		background-color: $color-primary;
-		-moz-border-radius-bottomright: 12px;
-		-webkit-border-bottom-right-radius: 12px;
-		border-bottom-right-radius: 12px;
-		-moz-border-radius-bottomleft: 12px;
-		-webkit-border-bottom-left-radius: 12px;
-		border-bottom-left-radius: 12px;
+//		-moz-border-radius-bottomright: 12px;
+//		-webkit-border-bottom-right-radius: 12px;
+//		border-bottom-right-radius: 12px;
+//		-moz-border-radius-bottomleft: 12px;
+//		-webkit-border-bottom-left-radius: 12px;
+//		border-bottom-left-radius: 12px;
 		width: 262px;
-		height: 628px;
+		height: 390px;
 		position: fixed;
 		display: block;
 		top:0 ;
@@ -1319,12 +1352,29 @@ margin-right: 10px;
 	}
 	
 	.navbar-fixed-top {
-    top: 330px;
+		 top: 330px;
     border-width: 0 0 1px;
     width: 220px;
     left: 100px;
     z-index: 99999999;
-	
+}
+
+.navbar-fixed-top-moving {
+
+}
+.navbar-fixed-top-test {
+		 top: 330px !important;
+		 		-moz-transition: all .3s  easet;
+	-o-transition: all .3s  ease ;
+	-webkit-transition: all .3s  ease;
+	transition: all .3s ease;
+	 left: 100px;
+
+
+}
+.navbar-fixed-top-test-a {
+	 top: 120px !important;
+		     left: 100px;
 }
 
 .navbar-default {

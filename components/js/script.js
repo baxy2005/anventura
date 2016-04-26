@@ -109,6 +109,41 @@ $('.owl-carousel-awards').owlCarousel({
     }
 });
 
+//function checkWidth(init)
+//{
+//    /*If browser resized, check width again */
+//    if ($(window).width() < 992) {
+//		$('.navbar-fixed-top').removeClass('navbar-fixed-top-moving');
+//        
+//    }
+//    else {
+//        if (!init) {
+//            $('.navbar-fixed-top').addClass('navbar-fixed-top-moving');
+//        }
+//    }
+//}
+//
+//$(document).ready(function() {
+//    checkWidth(true);
+//
+//    $(window).resize(function() {
+//        checkWidth(false);
+//    });
+//});
+
+//$(window).on('resize', function(){
+//      var win = $(this);
+//      if (win.width() < 992) { 
+//	 $('.navbar-fixed-top').removeClass('navbar-fixed-top-moving');
+//      }
+//    else
+//    {
+//       $('.navbar-fixed-top').addClass('navbar-fixed-top-moving');
+//    }
+//
+//});
+  
+  
   
 $(function() {
   
@@ -121,71 +156,94 @@ $(function() {
 
 	
 	
-	
+	 var tween = new TimelineMax();
+	 
+	    tween.add([
+		TweenMax.to(".budapest", 0.3, {top:-55}),
+		TweenMax.to(".aventura-tube", 0.2, {opacity:0}),
+		TweenMax.to(".form-opening", 0.3, {top:185}),
+		TweenMax.fromTo(".navbar-fixed-top", 0.3, {top:330}, {top: 120}),
+		TweenMax.fromTo(".main-bar", 0.3, {top: 0, }, {top: 15, }),
 
 
-var tween = TweenMax.fromTo('.main-bar', 0.3,
-    {
-        top: 0,
-		height: 628
-    },
-    {
-		 top: 15,
-		 height: 430
-     }
-);
+    ]);
+		tween.add([
+    ]);
+
+
+//    tween.add(
+//        TweenMax.to(".budapest", 0.3, {opacity:0})
+//    );
+
+
+//var tween = TweenMax.fromTo('.main-bar', 0.3,
+//    {
+//        top: 0,
+//		height: 628
+//    },
+//    {
+//		 top: 15,
+//		 height: 430
+//     }
+//);
 	 var scene = new ScrollScene({
 			   offset: 600
 	
   })
-     .setClassToggle('.budapest', 'off')
     .setTween(tween)
     .addTo(scrollMagicController);
 	
-		 var scene2 = new ScrollScene({
+				 var scene8 = new ScrollScene({
 			   offset: 600
 	
   })
-  .setClassToggle('.aventura-brand', 'aventura-brand-small')
-	   .setClassToggle('.aventura-tube', 'budapest-off')
+  .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
     .addTo(scrollMagicController);
 
+	
+	//	 var scene2 = new ScrollScene({
+//			   offset: 600
+//	
+//  })
+//  .setClassToggle('.aventura-brand', 'aventura-brand-small')
+//	   .setClassToggle('.aventura-tube', 'budapest-off')
+//    .addTo(scrollMagicController);
+//
 			 var scene3 = new ScrollScene({
 			   offset: 600
 	
   })
   .setClassToggle('.aventura-brand', 'aventura-brand-small')
     .addTo(scrollMagicController);
-
+//
 			 var scene4 = new ScrollScene({
 			   offset: 600
 	
   })
   .setClassToggle('.main-bar', 'main-bar-moving')
     .addTo(scrollMagicController);
-
-				 var scene5 = new ScrollScene({
-			   offset: 600
-	
-  })
-  .setClassToggle('.navbar-fixed-top', 'navbar-fixed-top-moving')
-    .addTo(scrollMagicController);
-
-				 var scene6 = new ScrollScene({
-			   offset: 600
-	
-  })
-  .setClassToggle('.form-opening', 'form-opening-moving')
-    .addTo(scrollMagicController);
-
-	
+//
+//				 var scene5 = new ScrollScene({
+//			   offset: 600
+//	
+//  })
+//  .setClassToggle('.navbar-fixed-top', 'navbar-fixed-top-moving')
+//    .addTo(scrollMagicController);
+//
+//				 var scene6 = new ScrollScene({
+//			   offset: 600
+//	
+//  })
+//  .setClassToggle('.form-opening', 'form-opening-moving')
+//    .addTo(scrollMagicController);
+//
+//	
 	
   // Add debug indicators fixed on right side
    scene.addIndicators();
    
  
 });
-
 
 			  $(".navbar-toggle").on("click", function () {
 				    $(this).toggleClass("active");
