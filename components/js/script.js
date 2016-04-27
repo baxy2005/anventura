@@ -15,9 +15,9 @@ $('.owl-rooms-aps').owlCarousel({
     items:1,
     lazyLoad:true,
     loop:true,
-	autoplay: true,
+	autoplay: false,
 	nav:false,
-	margin:30,
+	margin:10,
 });
 
 $('.owl-news').owlCarousel({
@@ -162,7 +162,6 @@ $(function() {
 		TweenMax.to(".budapest", 0.3, {top:-55}),
 		TweenMax.to(".aventura-tube", 0.2, {opacity:0}),
 		TweenMax.to(".form-opening", 0.3, {top:185}),
-		TweenMax.fromTo(".navbar-fixed-top", 0.3, {top:330}, {top: 120}),
 		TweenMax.fromTo(".main-bar", 0.3, {top: 0, }, {top: 15, }),
 
 
@@ -269,4 +268,13 @@ $('.navmenu-default ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(0).fadeOut(170);
 });*/
 
+
+
+
+
+$ ('.owl-rooms-aps .item img').each(function() {
+	var imgSrc = $(this).attr('data-src');
+	$(this).parent().css({'background-image': 'url('+imgSrc+')'});
+	$(this).remove();
+});
 

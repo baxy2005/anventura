@@ -22,6 +22,8 @@ body {
 color: $text-color-gray;	
 }
 
+
+
 /*.box .owl-theme .owl-controls {
 	position: relative;
 left: 170px;
@@ -35,7 +37,7 @@ margin-top: 0;
 		 top: 0px !important;
 }
 
-.budapest, .main-bar{
+.budapest{
 		-moz-transition: all .3s  ease-in-out;
 	-o-transition: all .3s  ease-in-out ;
 	-webkit-transition: all .3s  ease-in-out;
@@ -214,8 +216,57 @@ color: $color-white;
 }
 .owl-rooms-aps .item {
  height: 212px;
- border-radius: 12px
+ border-radius: 12px;
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+		-moz-border-radius-bottomright: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-radius-bottomleft:0px;
+		-webkit-border-bottom-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+
+
+ 	@media (min-width: 992px) {
+		height: 350px !important;
+border-radius: 12px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;	}
+ 
 }
+.owl-theme.owl-rooms-aps .owl-controls {
+    margin-top: -200px !important;
+    position: absolute !important;
+    margin-left: 7px !important;
+	display: auto;
+	@media (min-width: 992px) {
+		margin-top: -340px !important;
+		right: 15px !important;
+	}
+	
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+	width: 12px;
+height: 12px;
+margin: 5px 3px;
+background: $light-color-white !important
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $light-2-color-white !important;
+}
+
+
 .padding-zero {
 	padding:0px;
 }
@@ -290,23 +341,25 @@ margin-top: 9px;
 
 /*form*/
 .form-opening {
+			@media (min-width: 992px) {
+		}
+
 	
 	.form-opening-padding {
 		@media (min-width: 992px) {
 		padding:0 20px 20px 20px;
-				-moz-border-radius-bottomright: 12px;
+		-moz-border-radius-bottomright: 12px;
 		-webkit-border-bottom-right-radius: 12px;
 		border-bottom-right-radius: 12px;
 		-moz-border-radius-bottomleft: 12px;
 		-webkit-border-bottom-left-radius: 12px;
 		border-bottom-left-radius: 12px;
 		background-color: $color-primary;
-				-moz-transition: all .3s  ease-in-out;
+/*	-moz-transition: all .3s  ease-in-out;
 	-o-transition: all .3s  ease-in-out ;
 	-webkit-transition: all .3s  ease-in-out;
 	transition: all .3s ease-in-out ;
-
-		}
+*/		}
 	}
 label {
     font-weight: normal;
@@ -915,7 +968,7 @@ margin-right: 0px !important;
 	width: 150px;
 	height: 150px;
 	background-color: #fff;
-	margin-top: -110px;
+	margin-top: -75px;
 	position:relative;
 	text-align: center;
 	border-radius: 80px;
@@ -1112,6 +1165,25 @@ margin-right: 5px;
 }
 
 @media (min-width: 992px) {
+	
+	.award-top {
+	position: absolute;
+	top: 30px;
+	right: 79px;
+	z-index: 9999;
+	background-color: white;
+	border-radius: 120px;
+	width: 145px;
+	height: 145px;
+	line-height: 10;
+	text-align: center;
+	img {
+	width: 135px;
+	height: 135px;
+
+	}
+}
+	
 	/*general info opening awards*/
  .awards .owl-theme .owl-controls .owl-dots, .news .owl-theme .owl-controls .owl-dots, .reviews .owl-theme .owl-controls .owl-dots {
 		display: none !important;	
@@ -1185,6 +1257,9 @@ margin-right: 5px;
 }
 		
 		/*rooms and apps opening*/
+		
+	
+		
 	.box {
 	min-height:350px;	
 	border-radius: 12px;
@@ -1364,7 +1439,7 @@ margin-right: 10px;
 }
 .navbar-fixed-top-test {
 		 top: 330px !important;
-		 		-moz-transition: all .3s  easet;
+		 		-moz-transition: all .3s  ease;
 	-o-transition: all .3s  ease ;
 	-webkit-transition: all .3s  ease;
 	transition: all .3s ease;
