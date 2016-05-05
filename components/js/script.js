@@ -1,4 +1,6 @@
 
+$(function () { $("[data-toggle = 'tooltip']").tooltip(); });
+
 $('#main-carousel').owlCarousel({
 	animateOut: 'fadeOut',
     items:1,

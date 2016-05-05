@@ -23,6 +23,388 @@ color: $text-color-gray;
 }
 
 
+/* navigation*/
+
+a:focus, a:hover, a:active {
+    color: $color-primary;
+	outline: none;
+}
+
+.navbar {
+	margin: 0; 
+	min-height: 30px;
+ }
+ .navmenu-default .navmenu-nav > .open > a, .navbar-default .navbar-offcanvas .navmenu-nav > .open > a, .navmenu-default .navmenu-nav > .open > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:hover, .navmenu-default .navmenu-nav > .open > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > .open > a:focus {
+	background-color: transparent;
+	color: $color-white;
+}
+
+ .dropdown-menu {
+    display: none;
+    background-clip: padding-box;
+    position: relative;
+    z-index: 1000;
+    min-width: 100%;
+    padding: 5px 0px;
+    font-size: 13px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: $dark-color-gray;
+    left: 0px;
+    top: 100%;
+	width: 100%;
+	box-shadow: none;
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.secondary-nav .navbar-nav .dropdown-menu > li {
+	width: auto;
+}
+
+.dropdown-menu > li > a {
+	white-space: normal !important;
+	color: $mid-color-gray;
+	padding: 8px 20px 8px 10px;
+	border-left: 4px solid tomato;
+
+}
+
+.navmenu-default, .navbar-default .navbar-offcanvas {
+    background-color: #4A4A4A;
+    border-color: transparent;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 14px 15px 10px 15px;
+    font-size: 16px;
+}
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+    color: $light-3-color-white;
+}
+.glyphicon-plus {
+	color: 	$dark-color-gray;
+	float: right;
+}
+
+.dropdown, .dropup {
+    border-bottom: 1px solid $dark-color-gray;	
+}
+
+.navmenu-nav li {
+	 border-bottom: 1px solid $dark-color-gray;	
+}
+ 
+ .navmenu-default .navmenu-nav > li > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+    color: $color-white;
+    background-color: transparent;
+}
+
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: $color-secondary;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	color: $color-white;
+	background-color: $color-primary;
+	border: none;
+}
+
+
+.box-bouble {
+	padding: 15px !important;
+	
+				@media (min-width: 992px) {
+		padding: 30px !important;
+	}
+}
+	.box-bouble:before {
+		margin-top: -25px !important;
+		
+						@media (min-width: 992px) {
+		margin-top: -40px !important;
+	}
+	}
+
+/*rooms aps subpages*/
+
+
+.box-room-wide.africa-room .box-prices-active {
+		h6, span, p {
+			color: $color-africa;
+		}
+}
+.box-room-wide.india-room .box-prices-active {
+		h6, span, p {
+			color: $color-india;
+		}
+}
+.box-room-wide.space-room .box-prices-active {
+		h6, span, p {
+			color: $color-space;
+		}
+}
+.box-room-wide.japan-room .box-prices-active {
+		h6, span, p {
+			color: $color-japan;
+		}
+}
+.box-room-wide.rouge-room .box-prices-active {
+		h6, span, p {
+			color: $color-rouge;
+		}
+}
+.box-room-wide.art-retro-ap .box-prices-active {
+		h6, span, p {
+			color: $color-artRetro;
+		}
+}
+
+.box-room-wide.family-ap .box-prices-active {
+		h6, span, p {
+			color: $color-family;
+		}
+}
+	
+	.box-room-wide.africa-room .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-africa.svg);
+		opacity: 1 !important;
+	}
+	.box-room-wide.india-room .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-india.svg);
+		opacity: 1 !important;
+	}
+.box-room-wide.space-room .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-space.svg);
+		opacity: 1 !important;
+	}
+
+.box-room-wide.japan-room .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-japan.svg);
+		opacity: 1 !important;
+	}
+	.box-room-wide.rouge-ap .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-rouge.svg);
+		opacity: 1 !important;
+	}
+	.box-room-wide.art-retro-ap .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-retro-art.svg);
+		opacity: 1 !important;
+	}
+	.box-room-wide.family-ap .box-bouble-rooms-apps:before {
+		
+		background-color: transparent;
+		background-image: url(../images/aventura-triangle-family.svg);
+		opacity: 1 !important;
+	}	
+
+.box-room-wide {
+	padding-bottom: 120px;
+	.sesional-prices {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content:space-between;
+	}
+	.box-prices{
+		flex: 0 0 calc(50% - .15em);
+		
+					@media (min-width: 768px) {
+			flex: 0 0 calc(33.3333% - .15em);
+	}
+		
+			@media (min-width: 992px) {
+			flex: 0 0 calc(16.6666% - .15em);
+	}
+	}
+	
+	.box-prices-top, .box-prices-bottom {
+		min-height: 56px;
+		background-color: $light-6-color-white;
+		border-radius:6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: .15em;	
+		text-align: center;
+	}
+	.box-prices-top {
+		
+		h6 {
+			font-size: 16px;
+			color: $color-white;
+			margin-top:0;
+			margin-bottom: -20px;
+			display: block;
+			width: 100%;
+		}
+			span {
+				font-size: 12px;
+				font-weight: normal;
+				color: $color-white;
+				display: block;
+				line-height: 100%;
+			}
+
+	}
+	.box-prices-bottom  {
+		p {
+			font-size: 34px;
+			color: $color-white;
+			margin-bottom: 0px		
+			}
+			span {
+				font-size: 15px;
+				font-weight: normal;
+			}
+	}
+	
+	.box-prices-active {
+		background-color: $color-white;
+	}
+	
+	.box-general-info h2 {
+		font-size: 24px;
+	}
+	.box-bouble.box-bouble-rooms-apps {
+		background-color: transparent;
+		border: 2px solid $light-4-color-white;
+	}
+	
+	
+.logo {
+			@media (min-width: 992px) {
+				top: -120px;
+				margin: auto;
+				left: 0;
+				right: 0;
+	}
+}
+.room-ap-row {
+	height: auto;	
+}
+.btn {
+	width: 100% !important;
+	@media (min-width: 992px) {
+	width: 150px;
+	}
+}
+.room-ap-row-wide {
+	 .nav-pills {
+	
+	@media (min-width: 992px) {
+margin-top: 140px;	
+text-align: center;
+	}
+}
+ ul li {
+	text-align: left;
+}
+.room-ap-details li:first-child {
+	 	@media (min-width: 992px) {
+	width: 177px;
+		}
+}
+
+.room-ap-details li:last-child {
+	 width: 100% !important;
+	 margin-left: 0px;
+	 	@media (min-width: 992px) {
+	width: inherit !important;
+		}
+}
+
+
+.room-ap-details .btn-default {
+	 	@media (min-width: 992px) {
+	margin-top: -10px;
+	margin-left: 10px;
+		}
+}
+
+.facilities ul li {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.facilities .nav img {
+	background-color: $light-6-color-white;
+}
+
+.facilities p {
+	color: $color-white;
+}
+}
+.box-bouble {
+	background-color: $light-4-color-white;
+	p {
+		margin-bottom: 0;
+	}
+}
+ .box-bouble:before {
+	 opacity: .65
+ }
+ 
+ .room-ap-row  ul li:first-child {
+	width: intherit
+ }
+}
+
+.box-room-wide .owl-rooms-aps {
+	
+	.item {
+		border-radius: 12px;
+		-moz-border-radius-bottomright: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		-moz-border-radius-bottomleft:0px;
+		-webkit-border-bottom-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+
+		
+	}
+	
+			@media (min-width: 992px) {
+	.item {
+	height: 540px !important;	
+	}
+	.owl-item{
+		max-height: 540px !important;
+	}
+			}
+}
+
+/*main carousel*/
+#main-carousel {
+.owl-item {
+	
+	max-height: 600px !important;
+}
+.owl-controls {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	margin: auto;
+}
+}
 
 /*.box .owl-theme .owl-controls {
 	position: relative;
@@ -86,6 +468,7 @@ border-top-left-radius: 0px !important;
 
 footer {
 	color: $color-white;
+	margin-bottom: 5px;
 	h4 {
 		margin-bottom: 15px;
 		font-size: 16px;
@@ -254,6 +637,18 @@ border-bottom-left-radius: 0px;	}
 	
 }
 
+.box-room-wide .owl-theme.owl-rooms-aps .owl-controls {
+    margin-top: -200px !important;
+    position: absolute !important;
+    margin-left: 7px !important;
+	display: auto;
+	@media (min-width: 992px) {
+		margin-top: -530px !important;
+		right: 15px !important;
+	}
+	
+}
+
 
 .owl-theme .owl-dots .owl-dot span {
 	width: 12px;
@@ -283,7 +678,7 @@ margin-top: 9px;
 
 
 .navmenu, .navbar-offcanvas {
-    width: 240px;
+    width: 200px;
 }
 
 .navbar-default .navbar-toggle {
@@ -293,12 +688,19 @@ margin-top: 9px;
 }
 .navbar {
     height: 60px;
+	border: none;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.28);
+	background-color: $color-white;
+	@media (min-width: 992px) {
+	box-shadow: none;
+	}
 }
 .navbar-brand {
     height: 40px;
     padding-top: 9px;
 	padding-left: 15px;
 	margin-right: 0px;
+	padding-right: 10px;
 }
 .navbar-nav {
     margin: 10px 0px;
@@ -460,7 +862,7 @@ h2 {
 }
 .box-general-info {
 	margin-bottom:45px;
-	h1 {
+	h1, h2 {
 		color: $color-white;
 		font-size: 32px;
 		font-weight: 200;
@@ -938,6 +1340,7 @@ margin-right: 0px !important;
 	background-image: url(../images/aventura-africa-room-bg.svg);
 	background-position: left bottom;
 	background-repeat: repeat-x;
+	margin-top: 15px;
 	}
 	.india-room{
 	background-color: $color-india;	
@@ -1051,7 +1454,7 @@ margin-right: 0px !important;
 	background-position: -1035px center; 
 }
 
-.room-ap-row {
+.room-ap-row, .room-ap-row-wide  {
 display: table !important;
 width: 100%;
 margin: 0;
@@ -1068,13 +1471,6 @@ ul li span{
 	color: $color-white;
 	line-height: 80%;
 }
-ul li:first-child {
-	width: auto;
-	margin-right: 10px;
-}
-ul li:last-child {
-	width: auto;
-}
 .icon {
 	width: 30px;
 	height: 30px;
@@ -1088,8 +1484,6 @@ ul li:last-child {
 	margin-right: 10px;
 }
 ul li img {
-	width: 70%;
-	height: 70%;
 }
 .nav-pills {
 	margin-bottom: 5px;
@@ -1370,6 +1764,40 @@ ul li img {
 	text-align: left;
 }
 }
+.room-ap-row-wide {
+display: table !important;
+height: 350px;
+margin: 0;
+ul li {
+	min-height: 47px;
+	font-size: 20px;
+	color: $color-white;
+	line-height: 100%;
+	margin-bottom: 10px;
+}
+ul li span{
+	font-size: 14px;
+	color: $color-white;
+}
+.icon {
+	width: 47px;
+	height: 47px;
+	border: 2px solid $color-white;
+	border-radius: 80px;
+	text-align: center;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 13px;
+}
+ul li img {
+}
+.nav-pills {
+	margin-bottom: 10px;
+	text-align: left;
+}
+}
 
 .box .btn {
 	font-size: 18px;
@@ -1459,7 +1887,7 @@ margin-right: 10px;
 .navbar-toggle {
 	border: none;
 	border-radius: 7px;
-	width: 95px;
+	width: 90px;
 	height: 40px;
 	background-color: white;	
 	margin-top: 0;
@@ -1476,30 +1904,32 @@ margin-right: 10px;
 	.icon-bar {
 		background-color: $color-primary !important;
 		margin-top: 5px;
-		width: 18px;
+		width: 16px;
 	}
 }
 	.navbar-nav {
-    margin: 0 -15px;
+    margin: 0 -10px;
 }
 	
 	.navbarIcons {
 	text-indent: -3000px;
+	height: 40px;
 	
 	li {
 		background-repeat:no-repeat !important;
-		width: 25px;
-		margin-right: 6px;
+		width: 28px;
+		margin-right: 5px;
 		background-size: 131px 34px;
+		height: 40px;
 	}
 	
 	li.phone {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
-		background-position: -11px center; 	
+		background-position: -8px center; 	
 	}
 	li.skype {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
-		background-position: -50px center; 	
+		background-position: -48px center; 	
 	}
 	li.email {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
@@ -1509,6 +1939,9 @@ margin-right: 10px;
 	li.google {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
 		background-position: -133px center; 	
+	}
+	li:last-child {
+	margin-right: 4px;	
 	}
 }
 
@@ -1561,6 +1994,9 @@ ul li:last-child {
 
 .room-ap-row {
 	margin-left: -60px;
+}
+.box-room-wide .room-ap-row  {
+	margin-left: auto;
 }
 
 }
