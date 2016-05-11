@@ -7,7 +7,7 @@
     <g id="kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="aventura-triangle-retro-art">
             <path d="M9.50231934,1 L1,10.2818604 L18.4296875,9.81750488 L9.50231934,1 Z" id="Path-680" fill="#EB8300"></path>
-            <path d="M0.496337891,10.5703125 L9.5637207,1.47265625 L18.5085449,10.4453125" id="Path-681" stroke="#EDAA54" stroke-width="2"></path>
+            <path d="M0.496337891,10.5703125 L9.5637207,1.47265625 L18.5085449,10.4453125" id="Path-681" stroke="#F8D3A6" stroke-width="2"></path>
         </g>
     </g>
 </svg>

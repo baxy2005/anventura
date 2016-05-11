@@ -23,6 +23,15 @@ color: $text-color-gray;
 }
 
 
+.box-general-info .box-bouble {
+	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: $color-primary !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background: $light-color-gray !important;
+}
+}
+
 /* navigation*/
 
 a:focus, a:hover, a:active {
@@ -67,17 +76,55 @@ a:focus, a:hover, a:active {
 .dropdown-menu > li > a {
 	white-space: normal !important;
 	color: $mid-color-gray;
-	padding: 8px 20px 8px 10px;
-	border-left: 4px solid tomato;
+	padding: 8px 20px 8px 15px;
+	
+	span {
+		font-size: 12px;
+		display: block;
+	}
+}
 
+/*.dropdown-menu > li {
+ a.africa-room-menu {
+	border-left: 4px solid $color-africa;
+}
+ a.india-room-menu {
+	border-left: 4px solid $color-india;
+}
+ a.space-room-menu {
+	border-left: 4px solid $color-space;
+}
+ a.japan-room-menu {
+	border-left: 4px solid $color-japan;
+}
+
+}*/
+.navmenu-brand {
+	margin-top: 0px;
+	i {
+		    width: 44px;
+    height: 44px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid $color-primary;
+    line-height: 1.8;
+	background-color: white;
+}
+img {
+width: 28px;
+height: 28px;	
+}
+	
 }
 
 .navmenu-default, .navbar-default .navbar-offcanvas {
     background-color: #4A4A4A;
     border-color: transparent;
+	background-image: linear-gradient(-90deg, rgba(0,0,0,0.15) 0%, #4A4A4A 10%);
 }
 
-.nav > li > a {
+.navmenu-nav > li > a {
     position: relative;
     display: block;
     padding: 14px 15px 10px 15px;
@@ -105,15 +152,18 @@ a:focus, a:hover, a:active {
 }
 
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: $color-secondary;
+
 }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
 	color: $color-white;
 	background-color: $color-primary;
-	border: none;
 }
 
+.dropdown-menu.apartments-menu > li > a:focus, .dropdown-menu.apartments-menu > li > a:hover {
+	color: $color-white;
+	background-color: $color-artRetro;
+}
 
 .box-bouble {
 	padding: 15px !important;
@@ -130,8 +180,148 @@ a:focus, a:hover, a:active {
 	}
 	}
 
+
+/* general-info subpages*/
+
+
+.general-info-subpage {
+	margin-top: 15px;
+	.box-bouble {
+	background-color: $color-white;	
+	}
+	.box-bouble:before {
+		opacity: 1;
+	}
+	.box-bouble-outline {
+		border: solid 2px $light-color2-gray;
+	}
+	
+	.reviews i.news-i {
+	display: block;
+	margin: 0 auto 10px auto;	
+	text-align: center;
+	line-height: 3;
+		img {
+	margin-bottom: 10px;
+	width: 30px;
+	height: 30px;
+
+	}
+
+	}
+	.box-bouble-outline:before {
+background-image: url(../images/aventura-triangle-gray@2x.png);
+	}
+.box-bouble-gray {
+	background-color: $light-color3-gray;
+}
+.box-bouble-gray:before {
+	background-image: url(../images/aventura-triangle-black@2x.png);
+	margin-bottom: 30px;
+	position: relative;
+	opacity: .05;
+}
+
+.box-bouble-green {
+	background-color: $color-primary; 
+	color: $color-white;
+	ul li:before {
+      background-color: $color-white !important;
+}
+
+}
+.box-bouble-green:before {
+	background-image: url(../images/aventura-triangle-green-bouble@2x.png);
+	margin-bottom: 30px;
+	position: relative;
+	opacity: 1;
+}
+
+.box-general-info {
+	hr {
+		border-top: 1px solid $light-color-gray;
+	}
+	a {
+		color: $color-primary;
+	}
+ h2 {
+color: $color-primary;	
+font-weight: normal;
+margin-top: 30px;
+}
+h3 {
+	color: $color-primary;	
+	font-size: 18px;
+}
+ul {
+padding: 0 0 0 15px;	
+list-style: none;
+margin: 0;
+}
+ul li { 
+   position:relative;
+}
+ul li:before {
+      content:'';
+      display: block;
+      position: absolute;
+      width: 6px;
+      height:6px;
+      border-radius:6px;
+      left: -15px;
+      top: .5em;
+      background-color: $color-primary;
+}
+.box-bouble-gray {
+	p:last-child {
+	margin-bottom: 0;	
+	}
+}
+}
+.box-general-info h2:first-child {
+margin-top: 0px;
+}
+	.box-bouble-container {
+		margin-top: 30px;
+		h3 {
+		margin: 0px 0 20px 0;
+	}
+	}
+	.box-bouble-container-center {
+		h3 {
+			margin-bottom: 10px;
+		}
+		h2 {
+		text-align: center;	
+		}
+		.box-bouble-gray:before {
+			background-position: center 0;
+		}
+	}
+}
+
+
 /*rooms aps subpages*/
 
+.africa-room .facilities .nav li {
+				@media (min-width: 768px) {
+					width: 25%;
+					justify-content: center;
+				}
+	}
+	.japan-room .facilities .nav li, .family-ap .facilities .nav li {
+				@media (min-width: 768px) {
+					width: 20%;
+					justify-content: center;
+				}
+	}
+	
+
+
+
+.box-room-wide.india-room, .box-room-wide.space-room, .box-room-wide.japan-room, .box-room-wide.rouge-ap, .box-room-wide.family-ap, .box-room-wide.art-retro-ap{
+margin-top:15px;	
+}
 
 .box-room-wide.africa-room .box-prices-active {
 		h6, span, p {
@@ -153,7 +343,7 @@ a:focus, a:hover, a:active {
 			color: $color-japan;
 		}
 }
-.box-room-wide.rouge-room .box-prices-active {
+.box-room-wide.rouge-ap .box-prices-active {
 		h6, span, p {
 			color: $color-rouge;
 		}
@@ -214,7 +404,7 @@ a:focus, a:hover, a:active {
 		opacity: 1 !important;
 	}	
 
-.box-room-wide {
+.box-room-wide  {
 	padding-bottom: 120px;
 	.sesional-prices {
 		display: flex;
@@ -404,6 +594,15 @@ text-align: center;
 	bottom: 15px;
 	margin: auto;
 }
+.item {
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;	
+height: 212px !important;
+	@media (min-width: 992px) {
+	height: 600px !important;
+	}
+}
 }
 
 /*.box .owl-theme .owl-controls {
@@ -449,6 +648,10 @@ min-height: 82px !important;
 margin-top: -55px !important;
 border-top-right-radius:0px !important;
 border-top-left-radius: 0px !important;
+}
+.aventura-brand-small-rounded { 
+border-radius: 8px  !important;
+
 }
 
 .main-bar-moving {
@@ -501,7 +704,7 @@ i {
 .mini-brand {
 text-align: left;
 	@media (min-width: 992px) {
-		text-align: right;
+		text-align: left;
 	}
 	p {
 color: $light-4-color-white;
@@ -710,14 +913,16 @@ margin-top: 9px;
 	float: right;	
 }
 .navbarIcons {
-	text-indent: -3000px;
 	
 	li {
 		background-repeat:no-repeat !important;
 		width: 40px;
-		margin-right: 0;
+		margin-right: 5px;
 		background-size: 164px 42px;
 		float: left;
+	}
+	li a {
+	text-indent: -3000px;	
 	}
 	
 	li.phone {
@@ -730,15 +935,18 @@ margin-top: 9px;
 	}
 	li.email {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
-		margin-right: -5px;
+		margin-right: -3px;
 		background-position: -82px center; 	
 	}
 	li.google {
 		background:url(../images/aventura-mobil-nav-icons-sprite.svg);
 		background-position: -123px center; 	
-		margin-right: 15px;
+		margin-right: 5px;
 	}
 	
+		.navbar-nav > li > a {
+			text-indent: -300000px !important;
+		}
 }
 
 /*form*/
@@ -775,17 +983,23 @@ label {
 }
 h2 {
 		@media (min-width: 992px) {
-			font-size: 26px;
+			font-size: 18px;
 			color: $color-white;
-			margin-top: 0;
+			text-align: center;
+			margin-top: 8px
+	}
+	span {
+		font-size: 13px;
+		display: block;
 	}
 }
 .form-group {
 			@media (min-width: 992px) {
-	margin-bottom: 10px;
+	margin-bottom: 3px;
 }
 }
 .form-control {
+	@include trans-button;
     display: block;
     width: 100%;
     height: 38px;
@@ -796,16 +1010,25 @@ h2 {
     background-color: #EFEFEF;
     background-image: none;
     border: 1px solid #999;
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: none;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+		-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 			@media (min-width: 992px) {
-    			height: 40px;
+    			height: 35px;
 				border: none;
-				background-color: $color-white;
+				background-color: $light-3-color-white;
+				color: $color-primary;
+	}
+}
+	.form-control:focus  {
+		background-color: $light-3-color-white;
+		color: $color-white;
 	}
 
-}
+
 .btn-form {
     border-radius: 12px;
 	height: 38px;
@@ -818,7 +1041,8 @@ h2 {
 			@media (min-width: 992px) {
 	background-color: $color-white;
 	color: $color-primary;
-	height: 40px;
+	height: 35px;
+	border-radius: 8px;
 	}
 	
 }
@@ -845,14 +1069,37 @@ h2 {
 	@media (min-width: 992px) {
 				position: fixed;
 				left: 79px;
-				top: 385px;
+				top: 375px;
 				z-index: 9999999;
 				width: 262px;
 				
 	}
 }
+.form-control::-moz-placeholder {
+	@media (min-width: 992px) {
+    color: $color-primary;
+    opacity: 1;
+	}
+}
 
 /*general info opening*/
+
+.box-general-info .slogan {
+	h2 {
+		color: $color-primary;
+		font-size: 26px;
+		font-weight: normal;
+		margin-bottom: 0;
+	}
+	span {
+    margin-top: -5px;
+	color:$fade-color-primary;
+	@media (min-width: 768px) {
+	    display: block;
+	}
+}
+}
+
 .general-info {
 	padding: 45px 0;	
 	.row {
@@ -869,6 +1116,9 @@ h2 {
 		margin-bottom: 20px;
 		margin-top: 0px;
 	}
+	h2 {
+	font-size: 24px;	
+	}
 }
 	.box-general-info:last-child {
 	margin-bottom: 0px;
@@ -884,6 +1134,7 @@ h2 {
     margin-left: -15px;
 }
 	.btn {
+		@include trans-button;
 		font-size: 18px;
 		padding: 8px 27px;
 		border-radius: 12px;
@@ -893,6 +1144,7 @@ h2 {
 			color: $color-primary;
 			font-weight: bold;
 			margin-bottom: 0px !important;
+			
 
 		
 		@media (min-width: 992px) {
@@ -903,7 +1155,12 @@ h2 {
 			margin-bottom: 0px !important;
 		}
 	}
+	.btn:hover, .btn:active, .btn:focus {
+		background-color: $color-primary;
+		color: $color-white;
+	}
 }
+
 .box-bouble:before {
 	 content: "";
 	height: 10px;
@@ -938,6 +1195,7 @@ h2 {
 	}
 	.nav li p {
 		margin-bottom: 20px;
+		color: $text-color-gray;
 	}
 	}
 	
@@ -1243,7 +1501,7 @@ margin-right: 0px !important;
 			border-radius: 12px;
 			border: 1px solid $light-color-gray;
 		}
-		.owl-carousel .owl-item {
+			.owl-carousel .owl-item {
 		text-align: center;	
 		}
 		.row {
@@ -1265,7 +1523,7 @@ margin-right: 0px !important;
 	}
 	
 	/*general info opening awards*/
-	.news, .reviews {
+	.news, .reviews, .location {
 		
 		h3 {
 			font-size: 18px;
@@ -1279,12 +1537,22 @@ margin-right: 0px !important;
 		
 	}
 	
+	.location h3{
+		margin-top: 30px;
+	}
+	
 	/*general info opening reviews*/
 	
 	.box-bouble-outline {
 		background-color: transparent;
 		border: solid 2px $color-primary;
-		
+	}
+	
+	.margin-bottom {
+	margin-bottom: 30px	
+	}
+.margin-bottom:last-child {
+	margin-bottom:0	
 	}
 	
 	.box-bouble-outline:before {
@@ -1304,6 +1572,12 @@ margin-right: 0px !important;
 	small {
 	display: block;	
 	margin-bottom: 20px;
+	font-size: 14px;
+	color: $light-color-gray;
+	font-weight: bold;
+	}
+	h3 {
+	margin-bottom: 4px;	
 	}
 	p {
 	margin-bottom: 0px;	
@@ -1829,11 +2103,12 @@ margin-right: 10px;
 //		-moz-border-radius-bottomleft: 12px;
 //		-webkit-border-bottom-left-radius: 12px;
 //		border-bottom-left-radius: 12px;
+		border-radius:12px;
 		width: 262px;
 		height: 390px;
 		position: fixed;
 		display: block;
-		top:0 ;
+		top:16px ;
 		left:79px;
 		z-index: 999999;
 		.padding {
@@ -1841,7 +2116,7 @@ margin-right: 10px;
 		}
 		.aventura-brand {
 		background-color: $color-white;	
-		min-height: 250px;
+		min-height: 240px;
 		border-radius: 8px;
 		margin-top: 5px;
 		text-align: center;
@@ -1850,7 +2125,7 @@ margin-right: 10px;
 			.aventura-tube {
 				position: absolute;
 				left: 6px;
-				margin-top: 10px;
+				margin-top: 7px;
 			}
 	}
 	
@@ -1866,7 +2141,7 @@ margin-right: 10px;
 
 }
 .navbar-fixed-top-test {
-		 top: 330px !important;
+		 top: 327px !important;
 		 		-moz-transition: all .3s  ease;
 	-o-transition: all .3s  ease ;
 	-webkit-transition: all .3s  ease;
@@ -1876,7 +2151,7 @@ margin-right: 10px;
 
 }
 .navbar-fixed-top-test-a {
-	 top: 120px !important;
+	 top: 109px !important;
 		     left: 100px;
 }
 
@@ -1912,7 +2187,6 @@ margin-right: 10px;
 }
 	
 	.navbarIcons {
-	text-indent: -3000px;
 	height: 40px;
 	
 	li {
@@ -1948,6 +2222,7 @@ margin-right: 10px;
 	.navbar-nav > li > a {
     padding-top:0px;
     padding-bottom: 10px;
+	text-indent: -300000px !important;
 }
 }
 

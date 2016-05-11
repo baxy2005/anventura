@@ -1,5 +1,7 @@
 
-$(function () { $("[data-toggle = 'tooltip']").tooltip(); });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 $('#main-carousel').owlCarousel({
 	animateOut: 'fadeOut',
@@ -80,7 +82,7 @@ $('.owl-packages').owlCarousel({
 
 
 $('.owl-carousel-awards').owlCarousel({
-    lazyLoad:true,
+    lazyLoad:false,
     loop:true,
 	autoplay: false,
 	nav:true,
@@ -158,13 +160,13 @@ $(function() {
 
 	
 	
+	
 	 var tween = new TimelineMax();
 	 
 	    tween.add([
 		TweenMax.to(".budapest", 0.3, {top:-55}),
 		TweenMax.to(".aventura-tube", 0.2, {opacity:0}),
-		TweenMax.to(".form-opening", 0.3, {top:185}),
-		TweenMax.fromTo(".main-bar", 0.3, {top: 0, }, {top: 15, }),
+		TweenMax.to(".form-opening", 0.3, {top:157}),
 
 
     ]);
@@ -201,6 +203,7 @@ $(function() {
   .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
     .addTo(scrollMagicController);
 
+
 	
 	//	 var scene2 = new ScrollScene({
 //			   offset: 600
@@ -217,12 +220,12 @@ $(function() {
   .setClassToggle('.aventura-brand', 'aventura-brand-small')
     .addTo(scrollMagicController);
 //
-			 var scene4 = new ScrollScene({
-			   offset: 600
-	
-  })
-  .setClassToggle('.main-bar', 'main-bar-moving')
-    .addTo(scrollMagicController);
+//			 var scene4 = new ScrollScene({
+//			   offset: 600
+//	
+//  })
+//  .setClassToggle('.main-bar', 'main-bar-moving')
+//    .addTo(scrollMagicController);
 //
 //				 var scene5 = new ScrollScene({
 //			   offset: 600
@@ -239,6 +242,17 @@ $(function() {
 //    .addTo(scrollMagicController);
 //
 //	
+	
+	
+	
+		 var scene1 = new ScrollScene({
+			triggerElement:  '#general',
+		 offset: 30
+	
+  })
+  .setClassToggle('.aventura-brand', 'aventura-brand-small-rounded')
+    .addTo(scrollMagicController);
+
 	
   // Add debug indicators fixed on right side
    scene.addIndicators();
@@ -274,7 +288,13 @@ $('.navmenu-default ul.nav li.dropdown').hover(function() {
 
 
 
-$ ('.owl-rooms-aps .item img').each(function() {
+$('.owl-rooms-aps .item img').each(function() {
+	var imgSrc = $(this).attr('data-src');
+	$(this).parent().css({'background-image': 'url('+imgSrc+')'});
+	$(this).remove();
+});
+
+$('#main-carousel .item img').each(function() {
 	var imgSrc = $(this).attr('data-src');
 	$(this).parent().css({'background-image': 'url('+imgSrc+')'});
 	$(this).remove();
