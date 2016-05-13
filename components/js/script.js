@@ -113,6 +113,34 @@ $('.owl-carousel-awards').owlCarousel({
     }
 });
 
+$('.owl-carousel-press').owlCarousel({
+    lazyLoad:false,
+    loop:true,
+	autoplay: false,
+	nav:true,
+	 responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        440:{
+            items:2,
+            nav:true
+        },
+		        767:{
+            items:3,
+            nav:true
+        },
+
+        992:{
+            items:3,
+            nav:true,
+        },
+
+    }
+});
+
   
   
 $(function() {
