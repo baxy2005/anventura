@@ -21,25 +21,25 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body class="apartment">
 <header>
 <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
-  <a class="navmenu-brand" href="#"><i><img src="images/aventura-brand-icon-footer.svg" alt=""/></i></a>
+  <a class="navmenu-brand" href="#"><i><img src="images/aventura-brand-icon-nav.svg" alt=""/></i></a>
   <ul class="nav navmenu-nav">
                 	<li class="dropdown"><a href="#" data-toggle="dropdown">Rooms <span class="glyphicon glyphicon-plus"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Africa Room</a></li>
-                                <li><a href="#">India Room </a></li>
-                                <li><a href="#">Space Room</a></li>
-                                <li><a href="#">Japan Room</a></li>
+                                <li><a href="#">Africa Room <span>8 beds mixed dormitory</span></a></li>
+                                <li><a href="#">India Room  <span>6 beds mixed dormitory</span></a></li>
+                                <li><a href="#">Space Room <span>4 beds mixed dormitory</span></a></li>
+                                <li><a href="#">Japan Room <span>2 beds double room</span></a></li>
                             </ul>                    
                     </li>
                 	<li class="dropdown"><a href="#" data-toggle="dropdown">Apartments <span class="glyphicon glyphicon-plus"></span></a>
                             <ul class="dropdown-menu apartments-menu">
-                                <li><a href="#">Aventura Apartment Rouge</a></li>
-                                <li><a href="#">Art Apartment </a></li>
-                                <li><a href="#">Retro Apartment</a></li>
-                                <li><a href="#">Family Apartment</a></li>
+                                <li><a href="#">Aventura Apartment Rouge <span>1 bedroom apartment</span></a></li>
+                                <li><a href="#">Art Apartment <span>2 bedroom apartment</span></a></li>
+                                <li><a href="#">Retro Apartment <span>2 bedroom apartment</span></a></li>
+                                <li><a href="#">Family Apartment <span>2 bedroom family apartment</span></a></li>
                             </ul>                    
                     </li>
                     <li><a href="#">Booking</a></li>
@@ -52,10 +52,10 @@
             <img src="images/aventura-mobil-brand.svg" alt="Aventura Hostel Boutique Budapest Brand">
           </a>
            <ul class="nav navbar-nav navbar-right navbarIcons">
-              <li class="phone"><a href="tel:+3612390782">phone</a></li>
-              <li class="skype"><a href="skype:aventurahostel?call">skype</a></li>
-              <li class="email"><a href="mailto:info@aventurahostel.com">email</a></li>
-              <li class="google"><a href="http://goo.gl/maps/N0SjE">google</a></li>
+              <li class="phone"><a href="tel: +3612390782" data-toggle="tooltip" data-placement="top" title="+36-1-239-0782">phone</a></li>
+              <li class="skype"><a href="skype:aventurahostel?call" data-toggle="tooltip" data-placement="top" title="aventurahostel">skype</a></li>
+              <li class="email"><a href="mailto:info@aventurahostel.com" data-toggle="tooltip" data-placement="top" title="info@aventurahostel.com">email</a></li>
+              <li class="google"><a href="http://goo.gl/maps/N0SjE" data-toggle="tooltip" data-placement="top" title="Bp. 1132, 12 Visegradi utca">google</a></li>
            </ul>
               <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
                 <span class="icon-bar"></span>
@@ -70,30 +70,57 @@
 	<div class="padding">
       <img class="budapest" src="images/aventura-budapest.svg" alt=""/>
          <div class="aventura-brand">
-             <img class="hidden-sm hidden-xs" src="images/aventura-brand-wide.svg" alt=""/> 
+             <img class="hidden-sm hidden-xs brand-wide-hostel" src="images/aventura-brand-wide.svg" alt=""/> 
+             <img class="hidden-sm hidden-xs brand-wide-ap" src="images/aventura-brand-wide-ap.svg" alt=""/> 
              <div class="aventura-tube">
-                 <img class="hidden-sm hidden-xs" src="images/aventura-brand-tube.png" width="250" height="165" alt=""/>
+                 <img class="hidden-sm hidden-xs brand-tube-hostel" src="images/aventura-brand-tube.png" width="250" height="165" alt=""/>
+                  <img class="hidden-sm hidden-xs brand-tube-ap" src="images/aventura-brand-tube-ap.png" width="250" height="165" alt=""/>
              </div>
       </div>
     </div>
 </div><!--aside-->
     <div class="container-fluid">
         <div class="row">
-        <div class="col-xs-12">
-        	<div class="form-opening">
-            	<div class="form-opening-padding">
-                <h2>Book Now</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Date of check in</label>
-                        <input type="email" class="form-control checkIn" id="exampleInputEmail1" placeholder="Choose date">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Number of nights</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="1">
-                    </div>
-                    <button type="submit" class="btn btn-default btn-form">Check Availability</button>
-                </form>    
+            <div class="col-xs-12">
+                <div class="form-opening">
+                    <div class="form-opening-padding">
+                    <h2>Book directly with us <span> and enjoy our discounted prices</span></h2>
+                    <form>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">Select room, apartment</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control checkIn" id="exampleInputEmail1" placeholder="Date of check in">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">Number of nights</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">Number of guests</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-default btn-form">Book Now</button>
+                    </form>    
                 </div>
         </div>
       </div>  
@@ -135,11 +162,17 @@
                                                      <div class="box-general-info">
                                                     <h1>Aventura Retro Apartment Budapest</h1>
                                                     <div class="box-bouble">
-                                                        <p>Aventura Retro Apartment Budapest is a <strong>fully equipped two bedroom apartment</strong> one metro stop from Aventura Boutique Hostel, right<strong> in the middle of Budapest downtown</strong>, two minutes from the Basilica, Opera House and the Andrassy Avenue. Check-in is in the hostel! It is <strong>ideal for families with bigger children</strong> or<strong> for group of friends (maximum 4 people). </strong></p>
-                                                      <p>&nbsp;</p>
+                                                        <p>Aventura Retro Apartment Budapest is a <strong>fully equipped two bedroom apartment</strong> one metro stop from Aventura Boutique Hostel, right<strong> in the middle of Budapest downtown, two minutes from the Basilica, Opera House and the Andrassy Avenue. </strong>
+                                                           <div class="collapse" id="collapseExampleAbout">
+                                                              <div class="well">
+                                                               <p>&nbsp;</p>
+                                                        Check-in is in the hostel! It is <strong>ideal for families with bigger children</strong> or<strong> for group of friends (maximum 4 people). </strong></p>
                                                         <p>Retro Apartment is in fact a <strong>real home with the atmosphere of the 60s.</strong> Here you can experience a stylish Hungarian home atmosphere among solid Old World wooden furniture accented with traditional Hungarian wallpaper featuring a charming floral pattern. </p>
                                                         <p>&nbsp;</p>
                                                         <p>The apartment has a b<strong>athroom with bathtub, a separate toilet </strong>and a spacious <strong>kitchen equipped</strong> with fridge, microwave oven, stove and kettle. There are <strong>three rooms:</strong> a small bedroom with a <strong>double bed</strong>, an anteroom with <strong>two single beds</strong> and a living room with a large sofa. The living room has a balcony as well. The flat is equipped with<strong> Wi-Fi, cable TV, computer and telephone </strong>with free unlimited local calls. </p>
+                                                              </div>
+                                                           </div>
+                                                           <button class="readmoreBtn btn btn-lg" type="button" data-toggle="collapse" data-target="#collapseExampleAbout" aria-expanded="false" aria-controls="collapseExample">Read More</button>
                                                     </div> <!--bouble--> 
                                                 </div><!--rooms apps-->
                                                      <div class="box-general-info">
@@ -344,7 +377,7 @@
     <footer class="container-fluid">
         <div class="box gray">
             	<div class="flex">
-            		<div class="col-sm-8 col-md-8 col-lg-8">
+            		<div class="col-sm-8 col-md-8 col-lg-8 col-sm-push-4 col-md-push-4 col-lg-push-4">
                     		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                 <h4>Aventura</h4>
                                 <ul class="nav">
@@ -375,9 +408,11 @@
                                   <li class="googlePlus"><a href="https://plus.google.com/+AventuraBoutiqueHostelBudapest/about" target="_blank">googlePlus</a></li>
                                 </ul>
                                 <h4>Partners</h4>
+                                <a href="https://www.hihostels.com/hostels/budapest-aventura-boutique-hostel" target="_blank"><img src="images/aventura-partners-01.svg" alt=""/></a> 
+                                <a href="http://www.miszsz.hu/" target="_blank"><img src="images/aventura-partners-02.svg" alt=""/></a>
                             </div>
                     </div>
-            		<div class="col-sm-4 col-md-4 col-lg-4">
+            		<div class="col-sm-4 col-md-4 col-lg-4 col-sm-pull-8 col-md-pull-8 col-lg-pull-8">
                             <div class="col-md-12 col-lg-12 mini-brand">
                             	<i><img src="images/aventura-brand-icon-footer.svg" alt=""/></i>
                             	<p>Copyright ©2016 <br>
