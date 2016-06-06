@@ -739,9 +739,7 @@ margin-top: 0;
 */
 
 /* anim*/
-	.navbar-fixed-top-test {
-		 top: 0px !important;
-}
+	
 
 .budapest{
 		-moz-transition: all .3s  ease-in-out;
@@ -2337,17 +2335,13 @@ main bar
 
 }
 .navbar-fixed-top-test {
-		 top: 327px !important;
-		 		-moz-transition: all .3s  ease;
-	-o-transition: all .3s  ease ;
-	-webkit-transition: all .3s  ease;
-	transition: all .3s ease;
+		 top: 327px;
 	 left: 100px;
 
 
 }
 .navbar-fixed-top-test-a {
-	 top: 109px !important;
+	 top: 0px !important;
 		     left: 100px;
 }
 

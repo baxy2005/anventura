@@ -803,12 +803,7 @@ margin-top: 0;
 }
 */
 /* anim*/
-/* line 742, ../components/sass/style.scss */
-.navbar-fixed-top-test {
-  top: 0px !important;
-}
-
-/* line 746, ../components/sass/style.scss */
+/* line 744, ../components/sass/style.scss */
 .budapest {
   -moz-transition: all .3s  ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -822,17 +817,17 @@ margin-top: 0;
 	-webkit-transition: all .4s  ease-in-out;
 	transition: all .4s ease-in-out ;
  }*/
-/* line 759, ../components/sass/style.scss */
+/* line 757, ../components/sass/style.scss */
 .budapest-off {
   display: none;
 }
 
-/* line 762, ../components/sass/style.scss */
+/* line 760, ../components/sass/style.scss */
 .off {
   display: none;
 }
 
-/* line 765, ../components/sass/style.scss */
+/* line 763, ../components/sass/style.scss */
 .aventura-brand {
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -840,7 +835,7 @@ margin-top: 0;
   transition: all 0.2s ease;
 }
 
-/* line 771, ../components/sass/style.scss */
+/* line 769, ../components/sass/style.scss */
 .aventura-brand-small {
   min-height: 82px !important;
   margin-top: -55px !important;
@@ -848,18 +843,18 @@ margin-top: 0;
   border-top-left-radius: 0px !important;
 }
 
-/* line 777, ../components/sass/style.scss */
+/* line 775, ../components/sass/style.scss */
 .aventura-brand-small-rounded {
   border-radius: 8px  !important;
 }
 
-/* line 782, ../components/sass/style.scss */
+/* line 780, ../components/sass/style.scss */
 .main-bar-moving {
   border-top-right-radius: 12px !important;
   border-top-left-radius: 12px !important;
 }
 
-/* line 789, ../components/sass/style.scss */
+/* line 787, ../components/sass/style.scss */
 .form-opening-moving {
   top: 185px !important;
 }
@@ -867,21 +862,21 @@ margin-top: 0;
 /*-------------------------------------------
 footer
 -------------------------------------------*/
-/* line 799, ../components/sass/style.scss */
+/* line 797, ../components/sass/style.scss */
 footer {
   color: #FFFFFF;
   margin-bottom: 5px;
 }
-/* line 802, ../components/sass/style.scss */
+/* line 800, ../components/sass/style.scss */
 footer h4 {
   margin-bottom: 15px;
   font-size: 16px;
 }
-/* line 806, ../components/sass/style.scss */
+/* line 804, ../components/sass/style.scss */
 footer .col-xs-12 {
   margin-bottom: 30px;
 }
-/* line 810, ../components/sass/style.scss */
+/* line 808, ../components/sass/style.scss */
 footer .gray {
   background-color: #4d4d4d;
   min-height: auto;
@@ -892,12 +887,12 @@ footer .gray {
   align-items: center;
 }
 @media (min-width: 992px) {
-  /* line 810, ../components/sass/style.scss */
+  /* line 808, ../components/sass/style.scss */
   footer .gray {
     padding: 30px;
   }
 }
-/* line 821, ../components/sass/style.scss */
+/* line 819, ../components/sass/style.scss */
 footer .gray i {
   height: 60px;
   width: 60px;
@@ -908,68 +903,68 @@ footer .gray i {
   line-height: 3.5;
   margin-bottom: 20px;
 }
-/* line 831, ../components/sass/style.scss */
+/* line 829, ../components/sass/style.scss */
 footer .gray .mini-brand {
   text-align: left;
 }
 @media (min-width: 992px) {
-  /* line 831, ../components/sass/style.scss */
+  /* line 829, ../components/sass/style.scss */
   footer .gray .mini-brand {
     text-align: left;
   }
 }
-/* line 836, ../components/sass/style.scss */
+/* line 834, ../components/sass/style.scss */
 footer .gray .mini-brand p {
   color: rgba(255, 255, 255, 0.65);
   font-size: 12px;
 }
-/* line 840, ../components/sass/style.scss */
+/* line 838, ../components/sass/style.scss */
 footer .gray .mini-brand a {
   color: rgba(255, 255, 255, 0.65);
 }
-/* line 843, ../components/sass/style.scss */
+/* line 841, ../components/sass/style.scss */
 footer .gray .mini-brand a:hover, footer .gray .mini-brand a:focus, footer .gray .mini-brand a:active {
   color: #FFFFFF;
   text-decoration: none;
 }
-/* line 848, ../components/sass/style.scss */
+/* line 846, ../components/sass/style.scss */
 footer .gray .flex {
   display: auto;
 }
 @media (min-width: 992px) {
-  /* line 848, ../components/sass/style.scss */
+  /* line 846, ../components/sass/style.scss */
   footer .gray .flex {
     display: flex;
     align-items: center;
     width: 100%;
   }
 }
-/* line 860, ../components/sass/style.scss */
+/* line 858, ../components/sass/style.scss */
 footer .nav > li > a:hover, footer .nav > li > a:focus {
   text-decoration: none;
   background-color: transparent;
   color: #FFFFFF;
 }
-/* line 865, ../components/sass/style.scss */
+/* line 863, ../components/sass/style.scss */
 footer .nav > li > a {
   position: relative;
   display: block;
   padding: 5px 0px;
   color: rgba(255, 255, 255, 0.65);
 }
-/* line 871, ../components/sass/style.scss */
+/* line 869, ../components/sass/style.scss */
 footer .nav span {
   display: block;
   color: #FFFFFF;
 }
-/* line 876, ../components/sass/style.scss */
+/* line 874, ../components/sass/style.scss */
 footer ul.social {
   text-align: left;
   text-indent: -3000px;
   margin-bottom: 15px;
   padding-top: 5px;
 }
-/* line 882, ../components/sass/style.scss */
+/* line 880, ../components/sass/style.scss */
 footer ul.social li {
   display: inline-block;
   height: 40px;
@@ -978,58 +973,58 @@ footer ul.social li {
   margin-right: 3px;
   margin-bottom: 5px;
 }
-/* line 890, ../components/sass/style.scss */
+/* line 888, ../components/sass/style.scss */
 footer ul.social li:last-child {
   margin-right: 0px;
 }
-/* line 893, ../components/sass/style.scss */
+/* line 891, ../components/sass/style.scss */
 footer ul.social li a:hover, footer ul li a:focus {
   background-color: transparent;
 }
-/* line 896, ../components/sass/style.scss */
+/* line 894, ../components/sass/style.scss */
 footer ul.social li.facebook {
   background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
   background-color: #3B5A99;
   background-position: 0px center;
 }
-/* line 901, ../components/sass/style.scss */
+/* line 899, ../components/sass/style.scss */
 footer ul.social li.twitter {
   background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
   background-color: #4FD6FA;
   background-position: -39px center;
 }
-/* line 906, ../components/sass/style.scss */
+/* line 904, ../components/sass/style.scss */
 footer ul.social li.pinterest {
   background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
   background-color: #CC2127;
   background-position: -79px center;
 }
-/* line 911, ../components/sass/style.scss */
+/* line 909, ../components/sass/style.scss */
 footer ul.social li.tripadvisor {
   background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
   background-color: #4C8B38;
   background-position: -117px center;
 }
-/* line 916, ../components/sass/style.scss */
+/* line 914, ../components/sass/style.scss */
 footer ul.social li.googlePlus {
   background-image: url(../images/aventura-mobil-footer-social-icons-sprite.svg);
   background-color: #DD4B39;
   background-position: -156px center;
 }
 
-/* line 922, ../components/sass/style.scss */
+/* line 920, ../components/sass/style.scss */
 .owl-rooms-aps .owl-item {
   max-height: 350px;
 }
 
-/* line 925, ../components/sass/style.scss */
+/* line 923, ../components/sass/style.scss */
 .owl-rooms-aps .owl-item img {
   width: 100%;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
 }
 
-/* line 930, ../components/sass/style.scss */
+/* line 928, ../components/sass/style.scss */
 .owl-rooms-aps .item {
   height: 212px;
   border-radius: 12px;
@@ -1044,7 +1039,7 @@ footer ul.social li.googlePlus {
   border-bottom-left-radius: 0px;
 }
 @media (min-width: 992px) {
-  /* line 930, ../components/sass/style.scss */
+  /* line 928, ../components/sass/style.scss */
   .owl-rooms-aps .item {
     height: 350px !important;
     border-radius: 12px;
@@ -1060,7 +1055,7 @@ footer ul.social li.googlePlus {
   }
 }
 
-/* line 958, ../components/sass/style.scss */
+/* line 956, ../components/sass/style.scss */
 .owl-theme.owl-rooms-aps .owl-controls {
   margin-top: -200px !important;
   position: absolute !important;
@@ -1068,14 +1063,14 @@ footer ul.social li.googlePlus {
   display: auto;
 }
 @media (min-width: 992px) {
-  /* line 958, ../components/sass/style.scss */
+  /* line 956, ../components/sass/style.scss */
   .owl-theme.owl-rooms-aps .owl-controls {
     margin-top: -340px !important;
     right: 15px !important;
   }
 }
 
-/* line 970, ../components/sass/style.scss */
+/* line 968, ../components/sass/style.scss */
 .box-room-wide .owl-theme.owl-rooms-aps .owl-controls {
   margin-top: -200px !important;
   position: absolute !important;
@@ -1083,14 +1078,14 @@ footer ul.social li.googlePlus {
   display: auto;
 }
 @media (min-width: 992px) {
-  /* line 970, ../components/sass/style.scss */
+  /* line 968, ../components/sass/style.scss */
   .box-room-wide .owl-theme.owl-rooms-aps .owl-controls {
     margin-top: -530px !important;
     right: 15px !important;
   }
 }
 
-/* line 983, ../components/sass/style.scss */
+/* line 981, ../components/sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
@@ -1098,42 +1093,42 @@ footer ul.social li.googlePlus {
   background: rgba(255, 255, 255, 0.4) !important;
 }
 
-/* line 990, ../components/sass/style.scss */
+/* line 988, ../components/sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: rgba(255, 255, 255, 0.85) !important;
 }
 
-/* line 995, ../components/sass/style.scss */
+/* line 993, ../components/sass/style.scss */
 .padding-zero {
   padding: 0px;
 }
 
-/* line 999, ../components/sass/style.scss */
+/* line 997, ../components/sass/style.scss */
 .padding-right-zero {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-/* line 1003, ../components/sass/style.scss */
+/* line 1001, ../components/sass/style.scss */
 .navbar-toggle {
   margin-left: 0px;
   height: 42px;
   margin-top: 9px;
 }
 
-/* line 1010, ../components/sass/style.scss */
+/* line 1008, ../components/sass/style.scss */
 .navmenu, .navbar-offcanvas {
   width: 200px;
 }
 
-/* line 1014, ../components/sass/style.scss */
+/* line 1012, ../components/sass/style.scss */
 .navbar-default .navbar-toggle {
   float: left;
   border: 2px solid solid;
   border-radius: 8px;
 }
 
-/* line 1019, ../components/sass/style.scss */
+/* line 1017, ../components/sass/style.scss */
 .navbar {
   height: 60px;
   border: none;
@@ -1141,13 +1136,13 @@ footer ul.social li.googlePlus {
   background-color: #FFFFFF;
 }
 @media (min-width: 992px) {
-  /* line 1019, ../components/sass/style.scss */
+  /* line 1017, ../components/sass/style.scss */
   .navbar {
     box-shadow: none;
   }
 }
 
-/* line 1028, ../components/sass/style.scss */
+/* line 1026, ../components/sass/style.scss */
 .navbar-brand {
   height: 40px;
   padding-top: 9px;
@@ -1156,7 +1151,7 @@ footer ul.social li.googlePlus {
   padding-right: 10px;
 }
 
-/* line 1035, ../components/sass/style.scss */
+/* line 1033, ../components/sass/style.scss */
 .navbar-nav {
   margin: 10px 0px;
 }
@@ -1164,12 +1159,12 @@ footer ul.social li.googlePlus {
 /*-------------------------------------------
 navbar icons
 -------------------------------------------*/
-/* line 1042, ../components/sass/style.scss */
+/* line 1040, ../components/sass/style.scss */
 .navbar-right {
   float: right;
 }
 
-/* line 1047, ../components/sass/style.scss */
+/* line 1045, ../components/sass/style.scss */
 .navbarIcons li {
   background-repeat: no-repeat !important;
   width: 40px;
@@ -1177,33 +1172,33 @@ navbar icons
   background-size: 164px 42px;
   float: left;
 }
-/* line 1054, ../components/sass/style.scss */
+/* line 1052, ../components/sass/style.scss */
 .navbarIcons li a {
   text-indent: -3000px;
 }
-/* line 1058, ../components/sass/style.scss */
+/* line 1056, ../components/sass/style.scss */
 .navbarIcons li.phone {
   background: url(../images/aventura-mobil-nav-icons-sprite.svg);
   background-position: -1px center;
 }
-/* line 1062, ../components/sass/style.scss */
+/* line 1060, ../components/sass/style.scss */
 .navbarIcons li.skype {
   background: url(../images/aventura-mobil-nav-icons-sprite.svg);
   background-position: -41px center;
 }
-/* line 1066, ../components/sass/style.scss */
+/* line 1064, ../components/sass/style.scss */
 .navbarIcons li.email {
   background: url(../images/aventura-mobil-nav-icons-sprite.svg);
   margin-right: -3px;
   background-position: -82px center;
 }
-/* line 1071, ../components/sass/style.scss */
+/* line 1069, ../components/sass/style.scss */
 .navbarIcons li.google {
   background: url(../images/aventura-mobil-nav-icons-sprite.svg);
   background-position: -123px center;
   margin-right: 5px;
 }
-/* line 1077, ../components/sass/style.scss */
+/* line 1075, ../components/sass/style.scss */
 .navbarIcons .navbar-nav > li > a {
   text-indent: -300000px !important;
 }
@@ -1212,7 +1207,7 @@ navbar icons
 form
 -------------------------------------------*/
 @media (min-width: 992px) {
-  /* line 1091, ../components/sass/style.scss */
+  /* line 1089, ../components/sass/style.scss */
   .form-opening .form-opening-padding {
     padding: 0 20px 20px 20px;
     -moz-border-radius-bottomright: 12px;
@@ -1224,20 +1219,20 @@ form
     background-color: #8DC644;
   }
 }
-/* line 1103, ../components/sass/style.scss */
+/* line 1101, ../components/sass/style.scss */
 .form-opening label {
   font-weight: normal;
   font-size: 16px;
 }
 @media (min-width: 992px) {
-  /* line 1103, ../components/sass/style.scss */
+  /* line 1101, ../components/sass/style.scss */
   .form-opening label {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.65);
   }
 }
 @media (min-width: 992px) {
-  /* line 1113, ../components/sass/style.scss */
+  /* line 1111, ../components/sass/style.scss */
   .form-opening h2 {
     font-size: 18px;
     color: #FFFFFF;
@@ -1245,22 +1240,22 @@ form
     margin-top: 8px;
   }
 }
-/* line 1120, ../components/sass/style.scss */
+/* line 1118, ../components/sass/style.scss */
 .form-opening h2 span {
   font-size: 13px;
   display: block;
 }
-/* line 1125, ../components/sass/style.scss */
+/* line 1123, ../components/sass/style.scss */
 .form-opening .form-group {
   margin-bottom: 5px;
 }
 @media (min-width: 992px) {
-  /* line 1125, ../components/sass/style.scss */
+  /* line 1123, ../components/sass/style.scss */
   .form-opening .form-group {
     margin-bottom: 3px;
   }
 }
-/* line 1131, ../components/sass/style.scss */
+/* line 1129, ../components/sass/style.scss */
 .form-opening .form-control {
   -moz-transition: all .2s ease;
   -webkit-transition: all .2s ease;
@@ -1287,7 +1282,7 @@ form
   appearance: none;
 }
 @media (min-width: 992px) {
-  /* line 1131, ../components/sass/style.scss */
+  /* line 1129, ../components/sass/style.scss */
   .form-opening .form-control {
     height: 35px;
     border: none;
@@ -1298,12 +1293,12 @@ form
     background-position: 93% 50%;
   }
 }
-/* line 1162, ../components/sass/style.scss */
+/* line 1160, ../components/sass/style.scss */
 .form-opening .form-control:focus {
   background-color: rgba(255, 255, 255, 0.5);
   color: #FFFFFF;
 }
-/* line 1168, ../components/sass/style.scss */
+/* line 1166, ../components/sass/style.scss */
 .form-opening .btn-form {
   border-radius: 12px;
   height: 38px;
@@ -1315,7 +1310,7 @@ form
   width: 100%;
 }
 @media (min-width: 992px) {
-  /* line 1168, ../components/sass/style.scss */
+  /* line 1166, ../components/sass/style.scss */
   .form-opening .btn-form {
     background-color: #FFFFFF;
     color: #8DC644;
@@ -1323,32 +1318,32 @@ form
     border-radius: 8px;
   }
 }
-/* line 1185, ../components/sass/style.scss */
+/* line 1183, ../components/sass/style.scss */
 .form-opening .btn-form.active, .form-opening .btn-form.focus, .form-opening .btn-form:active, .form-opening .btn-form:focus, .form-opening .btn-form:hover, .form-opening .open > .dropdown-toggle.btn-default {
   color: #FFFFFF;
   background-color: #8DC644;
 }
 @media (min-width: 992px) {
-  /* line 1185, ../components/sass/style.scss */
+  /* line 1183, ../components/sass/style.scss */
   .form-opening .btn-form.active, .form-opening .btn-form.focus, .form-opening .btn-form:active, .form-opening .btn-form:focus, .form-opening .btn-form:hover, .form-opening .open > .dropdown-toggle.btn-default {
     background-color: #FFFFFF;
     color: #8DC644;
   }
 }
-/* line 1194, ../components/sass/style.scss */
+/* line 1192, ../components/sass/style.scss */
 .form-opening .form-control:focus {
   border-color: #8DC644;
   outline: 0px none;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(141, 198, 68, 0.6);
 }
-/* line 1200, ../components/sass/style.scss */
+/* line 1198, ../components/sass/style.scss */
 .form-opening .checkIn {
   background-image: url(../images/aventura-mobil-checkInBg-mobil.svg);
   background-repeat: no-repeat;
   background-position: 98% 3px;
 }
 @media (min-width: 992px) {
-  /* line 1200, ../components/sass/style.scss */
+  /* line 1198, ../components/sass/style.scss */
   .form-opening .checkIn {
     background-image: url(../images/aventura-mobil-checkInBg.svg);
     background-repeat: no-repeat;
@@ -1356,7 +1351,7 @@ form
   }
 }
 @media (min-width: 992px) {
-  /* line 1086, ../components/sass/style.scss */
+  /* line 1084, ../components/sass/style.scss */
   .form-opening {
     position: fixed;
     left: 79px;
@@ -1367,7 +1362,7 @@ form
 }
 
 @media (min-width: 992px) {
-  /* line 1220, ../components/sass/style.scss */
+  /* line 1218, ../components/sass/style.scss */
   .form-control::-moz-placeholder {
     color: #8DC644;
     opacity: 1;
@@ -1377,7 +1372,7 @@ form
 /*-------------------------------------------
 general info opening
 -------------------------------------------*/
-/* line 1232, ../components/sass/style.scss */
+/* line 1230, ../components/sass/style.scss */
 .well {
   min-height: 20px;
   padding: 0px;
@@ -1389,46 +1384,46 @@ general info opening
   box-shadow: none;
 }
 
-/* line 1245, ../components/sass/style.scss */
+/* line 1243, ../components/sass/style.scss */
 .box-general-info .slogan h2 {
   color: #8DC644;
   font-size: 26px;
   font-weight: normal;
   margin-bottom: 0 !important;
 }
-/* line 1251, ../components/sass/style.scss */
+/* line 1249, ../components/sass/style.scss */
 .box-general-info .slogan span {
   margin-top: -5px;
   color: #c6e2a1;
 }
 @media (min-width: 768px) {
-  /* line 1251, ../components/sass/style.scss */
+  /* line 1249, ../components/sass/style.scss */
   .box-general-info .slogan span {
     display: block;
   }
 }
 
-/* line 1259, ../components/sass/style.scss */
+/* line 1257, ../components/sass/style.scss */
 .box-room-wide .box-general-info h2 {
   font-weight: 200;
   color: #FFFFFF;
 }
 
-/* line 1264, ../components/sass/style.scss */
+/* line 1262, ../components/sass/style.scss */
 .general-info {
   padding: 45px 0;
 }
-/* line 1266, ../components/sass/style.scss */
+/* line 1264, ../components/sass/style.scss */
 .general-info .row {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 1271, ../components/sass/style.scss */
+/* line 1269, ../components/sass/style.scss */
 .box-general-info {
   margin-bottom: 45px;
 }
-/* line 1273, ../components/sass/style.scss */
+/* line 1271, ../components/sass/style.scss */
 .box-general-info h1, .box-general-info h2 {
   color: #FFFFFF;
   font-size: 32px;
@@ -1436,35 +1431,35 @@ general info opening
   margin-bottom: 20px;
   margin-top: 0px;
 }
-/* line 1280, ../components/sass/style.scss */
+/* line 1278, ../components/sass/style.scss */
 .box-general-info h2 {
   font-size: 24px;
   font-weight: normal;
   color: #8DC644;
 }
-/* line 1285, ../components/sass/style.scss */
+/* line 1283, ../components/sass/style.scss */
 .box-general-info .news h2 {
   margin-bottom: 10px;
 }
 
-/* line 1289, ../components/sass/style.scss */
+/* line 1287, ../components/sass/style.scss */
 .box-general-info:last-child {
   margin-bottom: 0px;
 }
 
-/* line 1293, ../components/sass/style.scss */
+/* line 1291, ../components/sass/style.scss */
 .box-bouble {
   min-height: 15px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   padding: 30px;
 }
-/* line 1298, ../components/sass/style.scss */
+/* line 1296, ../components/sass/style.scss */
 .box-bouble .row {
   margin-right: -15px;
   margin-left: -15px;
 }
-/* line 1302, ../components/sass/style.scss */
+/* line 1300, ../components/sass/style.scss */
 .box-bouble .btn {
   -moz-transition: all .2s ease;
   -webkit-transition: all .2s ease;
@@ -1482,7 +1477,7 @@ general info opening
   margin-bottom: 0px !important;
 }
 @media (min-width: 992px) {
-  /* line 1302, ../components/sass/style.scss */
+  /* line 1300, ../components/sass/style.scss */
   .box-bouble .btn {
     background-color: transparent;
     width: auto !important;
@@ -1491,13 +1486,13 @@ general info opening
     margin-bottom: 0px !important;
   }
 }
-/* line 1324, ../components/sass/style.scss */
+/* line 1322, ../components/sass/style.scss */
 .box-bouble .btn:hover, .box-bouble .btn:active, .box-bouble .btn:focus {
   background-color: #8DC644;
   color: #FFFFFF;
 }
 
-/* line 1330, ../components/sass/style.scss */
+/* line 1328, ../components/sass/style.scss */
 .box-bouble:before {
   content: "";
   height: 10px;
@@ -1515,25 +1510,25 @@ general info opening
 /*-------------------------------------------
 general info opening facilities
 -------------------------------------------*/
-/* line 1349, ../components/sass/style.scss */
+/* line 1347, ../components/sass/style.scss */
 .facilities .nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
 }
-/* line 1355, ../components/sass/style.scss */
+/* line 1353, ../components/sass/style.scss */
 .facilities .nav img {
   background-color: #8DC644;
   margin-bottom: 5px;
 }
-/* line 1359, ../components/sass/style.scss */
+/* line 1357, ../components/sass/style.scss */
 .facilities .nav li {
   width: 49%;
   justify-content: center;
   color: #8DC644;
 }
-/* line 1364, ../components/sass/style.scss */
+/* line 1362, ../components/sass/style.scss */
 .facilities .nav li p {
   margin-bottom: 20px;
   color: #4d4d4d;
@@ -1542,7 +1537,7 @@ general info opening facilities
 /*-------------------------------------------
 general info opening directions
 -------------------------------------------*/
-/* line 1374, ../components/sass/style.scss */
+/* line 1372, ../components/sass/style.scss */
 .direction .img-rounded {
   border-radius: 12px;
 }
@@ -1550,39 +1545,39 @@ general info opening directions
 /*-------------------------------------------
 general info opening discpunt
 -------------------------------------------*/
-/* line 1383, ../components/sass/style.scss */
+/* line 1381, ../components/sass/style.scss */
 .packages {
   padding-bottom: 0;
 }
-/* line 1385, ../components/sass/style.scss */
+/* line 1383, ../components/sass/style.scss */
 .packages .flex {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-/* line 1390, ../components/sass/style.scss */
+/* line 1388, ../components/sass/style.scss */
 .packages .item {
   margin-right: 5px;
   margin-left: 5px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
-/* line 1397, ../components/sass/style.scss */
+/* line 1395, ../components/sass/style.scss */
 .packages .col-lg-12 {
   margin-top: -20px;
 }
-/* line 1400, ../components/sass/style.scss */
+/* line 1398, ../components/sass/style.scss */
 .packages .owl-item {
   padding-bottom: 30px;
 }
 @media (min-width: 992px) {
-  /* line 1406, ../components/sass/style.scss */
+  /* line 1404, ../components/sass/style.scss */
   .packages .owl-controls {
     display: none;
   }
 }
 
-/* line 1413, ../components/sass/style.scss */
+/* line 1411, ../components/sass/style.scss */
 .discount-box {
   width: 100%;
   min-height: 260px;
@@ -1595,7 +1590,7 @@ general info opening discpunt
   text-align: center;
 }
 
-/* line 1425, ../components/sass/style.scss */
+/* line 1423, ../components/sass/style.scss */
 .discount-box h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -1608,7 +1603,7 @@ general info opening discpunt
   margin-bottom: 15px;
 }
 
-/* line 1437, ../components/sass/style.scss */
+/* line 1435, ../components/sass/style.scss */
 .packages .discount {
   position: relative;
   margin-top: 22px;
@@ -1616,7 +1611,7 @@ general info opening discpunt
   width: 100%;
 }
 
-/* line 1443, ../components/sass/style.scss */
+/* line 1441, ../components/sass/style.scss */
 .packages .discount h3 {
   font-size: 72px;
   font-weight: bold;
@@ -1627,14 +1622,14 @@ general info opening discpunt
   margin: 0;
 }
 
-/* line 1453, ../components/sass/style.scss */
+/* line 1451, ../components/sass/style.scss */
 .packages .discount span {
   font-size: 24px;
   font-weight: lighter;
   letter-spacing: 0em;
 }
 
-/* line 1459, ../components/sass/style.scss */
+/* line 1457, ../components/sass/style.scss */
 .packages .discount h4 {
   font-size: 20px;
   font-weight: lighter;
@@ -1644,7 +1639,7 @@ general info opening discpunt
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 1467, ../components/sass/style.scss */
+/* line 1465, ../components/sass/style.scss */
 .packages .discount p {
   font-size: 13px;
   color: #8DC644;
@@ -1652,7 +1647,7 @@ general info opening discpunt
   margin-top: -12px;
 }
 
-/* line 1474, ../components/sass/style.scss */
+/* line 1472, ../components/sass/style.scss */
 .discount-box .btn, .discount-box-back .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -1667,7 +1662,7 @@ general info opening discpunt
   -moz-user-select: none;
 }
 
-/* line 1488, ../components/sass/style.scss */
+/* line 1486, ../components/sass/style.scss */
 .discount-box .btn-default, .discount-box-back .btn-default {
   border: medium none;
   font-weight: bold;
@@ -1680,17 +1675,17 @@ general info opening discpunt
   width: 80% !important;
 }
 
-/* line 1501, ../components/sass/style.scss */
+/* line 1499, ../components/sass/style.scss */
 .extras {
   margin-top: 20px;
 }
 
-/* line 1505, ../components/sass/style.scss */
+/* line 1503, ../components/sass/style.scss */
 .discount-box-back .btn-default {
   top: 5px;
 }
 
-/* line 1509, ../components/sass/style.scss */
+/* line 1507, ../components/sass/style.scss */
 .discount-box-back {
   width: 178px;
   height: 260px;
@@ -1701,7 +1696,7 @@ general info opening discpunt
   margin-bottom: 5px;
 }
 
-/* line 1518, ../components/sass/style.scss */
+/* line 1516, ../components/sass/style.scss */
 .discount-box-back h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -1712,19 +1707,19 @@ general info opening discpunt
   padding-top: 7px;
 }
 
-/* line 1528, ../components/sass/style.scss */
+/* line 1526, ../components/sass/style.scss */
 .discount-box-back li {
   display: inline;
 }
 
-/* line 1532, ../components/sass/style.scss */
+/* line 1530, ../components/sass/style.scss */
 .nav {
   padding-left: 0px;
   margin-bottom: 0px;
   list-style: outside none none;
 }
 
-/* line 1537, ../components/sass/style.scss */
+/* line 1535, ../components/sass/style.scss */
 .facWraper {
   display: inline-block;
   margin-bottom: 0px;
@@ -1732,7 +1727,7 @@ general info opening discpunt
   font-family: HelveticaNeueLT-Com-57-Cn, sans-serif;
 }
 
-/* line 1544, ../components/sass/style.scss */
+/* line 1542, ../components/sass/style.scss */
 .facWraper img {
   width: 44px;
   height: 44px;
@@ -1740,26 +1735,26 @@ general info opening discpunt
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* line 1550, ../components/sass/style.scss */
+/* line 1548, ../components/sass/style.scss */
 .facWraper p {
   margin-top: 5px;
   margin-bottom: 10px;
   color: white;
 }
 
-/* line 1555, ../components/sass/style.scss */
+/* line 1553, ../components/sass/style.scss */
 .extras {
   margin-top: 20px;
 }
 
-/* line 1559, ../components/sass/style.scss */
+/* line 1557, ../components/sass/style.scss */
 .discount-box-back .btn-default {
   top: 5px;
 }
 
 /*new flip*/
 /* entire container, keeps perspective */
-/* line 1567, ../components/sass/style.scss */
+/* line 1565, ../components/sass/style.scss */
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -1772,19 +1767,19 @@ general info opening discpunt
 }
 
 /* flip the pane when hovered */
-/* line 1580, ../components/sass/style.scss */
+/* line 1578, ../components/sass/style.scss */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg);
 }
 
-/* line 1584, ../components/sass/style.scss */
+/* line 1582, ../components/sass/style.scss */
 .flip-container, .front, .back {
   width: 100%;
   min-height: 280px;
 }
 
 /* flip speed goes here */
-/* line 1590, ../components/sass/style.scss */
+/* line 1588, ../components/sass/style.scss */
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -1799,7 +1794,7 @@ general info opening discpunt
 }
 
 /* hide back of pane during swap */
-/* line 1608, ../components/sass/style.scss */
+/* line 1606, ../components/sass/style.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -1826,7 +1821,7 @@ general info opening discpunt
 }
 
 /* front pane, placed above back */
-/* line 1639, ../components/sass/style.scss */
+/* line 1637, ../components/sass/style.scss */
 .front {
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
@@ -1834,7 +1829,7 @@ general info opening discpunt
 }
 
 /* back, initially hidden pane */
-/* line 1646, ../components/sass/style.scss */
+/* line 1644, ../components/sass/style.scss */
 .back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -1843,46 +1838,46 @@ general info opening discpunt
   transform: rotateY(-180deg);
 }
 
-/* line 1655, ../components/sass/style.scss */
+/* line 1653, ../components/sass/style.scss */
 .flip-container {
   float: left;
   margin-bottom: 5px;
 }
 
-/* line 1661, ../components/sass/style.scss */
+/* line 1659, ../components/sass/style.scss */
 .flip-container.last {
   margin-right: 0px !important;
 }
 
-/* line 1665, ../components/sass/style.scss */
+/* line 1663, ../components/sass/style.scss */
 .card.last {
   margin-right: 0px !important;
 }
 
 /*general info opening awards*/
-/* line 1672, ../components/sass/style.scss */
+/* line 1670, ../components/sass/style.scss */
 .awards img {
   border-radius: 12px;
   border: 1px solid #cccccc;
 }
-/* line 1676, ../components/sass/style.scss */
+/* line 1674, ../components/sass/style.scss */
 .awards .owl-carousel .owl-item {
   text-align: center;
 }
-/* line 1679, ../components/sass/style.scss */
+/* line 1677, ../components/sass/style.scss */
 .awards .row {
   width: 100%;
   margin: 0 auto;
 }
-/* line 1683, ../components/sass/style.scss */
+/* line 1681, ../components/sass/style.scss */
 .awards .row.row-margin {
   margin-bottom: 20px;
 }
-/* line 1686, ../components/sass/style.scss */
+/* line 1684, ../components/sass/style.scss */
 .awards .owl-theme .owl-controls .owl-nav {
   display: none;
 }
-/* line 1689, ../components/sass/style.scss */
+/* line 1687, ../components/sass/style.scss */
 .awards h3 {
   font-size: 18px;
   margin-top: 0px;
@@ -1893,20 +1888,20 @@ general info opening discpunt
 /*-------------------------------------------
 general info opening awards
 -------------------------------------------*/
-/* line 1703, ../components/sass/style.scss */
+/* line 1701, ../components/sass/style.scss */
 .news h3, .reviews h3, .location h3 {
   font-size: 18px;
   color: #8DC644;
   font-size: 18px;
 }
 @media (min-width: 992px) {
-  /* line 1703, ../components/sass/style.scss */
+  /* line 1701, ../components/sass/style.scss */
   .news h3, .reviews h3, .location h3 {
     margin-top: 0px;
   }
 }
 
-/* line 1715, ../components/sass/style.scss */
+/* line 1713, ../components/sass/style.scss */
 .location h3 {
   margin-top: 30px;
 }
@@ -1914,23 +1909,23 @@ general info opening awards
 /*-------------------------------------------
 general info opening reviews
 -------------------------------------------*/
-/* line 1723, ../components/sass/style.scss */
+/* line 1721, ../components/sass/style.scss */
 .box-bouble-outline {
   background-color: transparent;
   border: solid 2px #8DC644;
 }
 
-/* line 1728, ../components/sass/style.scss */
+/* line 1726, ../components/sass/style.scss */
 .margin-bottom {
   margin-bottom: 30px;
 }
 
-/* line 1731, ../components/sass/style.scss */
+/* line 1729, ../components/sass/style.scss */
 .margin-bottom:last-child {
   margin-bottom: 0;
 }
 
-/* line 1735, ../components/sass/style.scss */
+/* line 1733, ../components/sass/style.scss */
 .box-bouble-outline:before {
   position: relative;
   background-image: url(../images/aventura-triangle-green@2x.png);
@@ -1941,11 +1936,11 @@ general info opening reviews
   margin-bottom: 30px;
 }
 
-/* line 1746, ../components/sass/style.scss */
+/* line 1744, ../components/sass/style.scss */
 .reviews h3, .reviews small {
   text-align: center;
 }
-/* line 1749, ../components/sass/style.scss */
+/* line 1747, ../components/sass/style.scss */
 .reviews small {
   display: block;
   margin-bottom: 20px;
@@ -1953,15 +1948,15 @@ general info opening reviews
   color: #cccccc;
   font-weight: bold;
 }
-/* line 1756, ../components/sass/style.scss */
+/* line 1754, ../components/sass/style.scss */
 .reviews h3 {
   margin-bottom: 4px;
 }
-/* line 1759, ../components/sass/style.scss */
+/* line 1757, ../components/sass/style.scss */
 .reviews p {
   margin-bottom: 0px;
 }
-/* line 1762, ../components/sass/style.scss */
+/* line 1760, ../components/sass/style.scss */
 .reviews .fa-user {
   font-size: 28px;
   text-align: center;
@@ -1970,7 +1965,7 @@ general info opening reviews
   display: block;
   margin-bottom: 10px;
 }
-/* line 1770, ../components/sass/style.scss */
+/* line 1768, ../components/sass/style.scss */
 .reviews i {
   width: 40px;
   height: 40px;
@@ -1982,19 +1977,19 @@ general info opening reviews
 /*-------------------------------------------
 rooms and aps opening
 -------------------------------------------*/
-/* line 1782, ../components/sass/style.scss */
+/* line 1780, ../components/sass/style.scss */
 .box {
   min-height: 424px;
   border-radius: 12px;
   margin-bottom: 10px;
 }
 
-/* line 1787, ../components/sass/style.scss */
+/* line 1785, ../components/sass/style.scss */
 .general-info {
   background-color: #8DC644;
 }
 
-/* line 1791, ../components/sass/style.scss */
+/* line 1789, ../components/sass/style.scss */
 .africa-room {
   background-color: #FFBC01 !important;
   background-image: url(../images/aventura-africa-room-bg.svg);
@@ -2003,7 +1998,7 @@ rooms and aps opening
   margin-top: 15px;
 }
 
-/* line 1798, ../components/sass/style.scss */
+/* line 1796, ../components/sass/style.scss */
 .india-room {
   background-color: #73108E;
   background-image: url(../images/aventura-india-room-bg.svg), url(../images/aventura-india-room-bg-2.svg);
@@ -2011,7 +2006,7 @@ rooms and aps opening
   background-repeat: repeat-x, no-repeat;
 }
 
-/* line 1804, ../components/sass/style.scss */
+/* line 1802, ../components/sass/style.scss */
 .space-room {
   background-color: #132060;
   background-image: url(../images/aventura-space-room-bg.svg), url(../images/aventura-space-room-bg-2.svg);
@@ -2019,27 +2014,27 @@ rooms and aps opening
   background-repeat: repeat-x, no-repeat;
 }
 
-/* line 1811, ../components/sass/style.scss */
+/* line 1809, ../components/sass/style.scss */
 .japan-room {
   background-color: #E50000;
 }
 
-/* line 1814, ../components/sass/style.scss */
+/* line 1812, ../components/sass/style.scss */
 .rouge-ap {
   background-color: #BE0000;
 }
 
-/* line 1817, ../components/sass/style.scss */
+/* line 1815, ../components/sass/style.scss */
 .art-retro-ap {
   background-color: #EB8300;
 }
 
-/* line 1820, ../components/sass/style.scss */
+/* line 1818, ../components/sass/style.scss */
 .family-ap {
   background-color: #00B7EB;
 }
 
-/* line 1823, ../components/sass/style.scss */
+/* line 1821, ../components/sass/style.scss */
 .logo {
   width: 150px;
   height: 150px;
@@ -2051,122 +2046,122 @@ rooms and aps opening
   z-index: 5;
   background-size: 1184px 149px;
 }
-/* line 1835, ../components/sass/style.scss */
+/* line 1833, ../components/sass/style.scss */
 .logo .price {
   padding-top: 88px;
 }
-/* line 1838, ../components/sass/style.scss */
+/* line 1836, ../components/sass/style.scss */
 .logo h4 {
   margin-top: -5px;
   font-size: 29px;
   font-weight: bold;
 }
-/* line 1843, ../components/sass/style.scss */
+/* line 1841, ../components/sass/style.scss */
 .logo .euro {
   font-size: 15px;
   font-weight: lighter;
 }
-/* line 1847, ../components/sass/style.scss */
+/* line 1845, ../components/sass/style.scss */
 .logo .small {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 1852, ../components/sass/style.scss */
+/* line 1850, ../components/sass/style.scss */
 .logo.africaLogo h4 {
   color: #FFBC01;
 }
 
-/* line 1855, ../components/sass/style.scss */
+/* line 1853, ../components/sass/style.scss */
 .logo.indiaLogo h4 {
   color: #73108E;
 }
 
-/* line 1858, ../components/sass/style.scss */
+/* line 1856, ../components/sass/style.scss */
 .logo.spaceLogo h4 {
   color: #132060;
 }
 
-/* line 1861, ../components/sass/style.scss */
+/* line 1859, ../components/sass/style.scss */
 .logo.japanLogo h4 {
   color: #E50000;
 }
 
-/* line 1864, ../components/sass/style.scss */
+/* line 1862, ../components/sass/style.scss */
 .logo.rougeLogo h4 {
   color: #BE0000;
 }
 
-/* line 1867, ../components/sass/style.scss */
+/* line 1865, ../components/sass/style.scss */
 .logo.artLogo h4 {
   color: #EB8300;
 }
 
-/* line 1870, ../components/sass/style.scss */
+/* line 1868, ../components/sass/style.scss */
 .logo.retroLogo h4 {
   color: #EB8300;
 }
 
-/* line 1873, ../components/sass/style.scss */
+/* line 1871, ../components/sass/style.scss */
 .logo.familyLogo h4 {
   color: #00B7EB;
 }
 
-/* line 1877, ../components/sass/style.scss */
+/* line 1875, ../components/sass/style.scss */
 .logo.africaLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: 0px center;
 }
 
-/* line 1881, ../components/sass/style.scss */
+/* line 1879, ../components/sass/style.scss */
 .logo.indiaLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -147px center;
 }
 
-/* line 1885, ../components/sass/style.scss */
+/* line 1883, ../components/sass/style.scss */
 .logo.spaceLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -443px center;
 }
 
-/* line 1889, ../components/sass/style.scss */
+/* line 1887, ../components/sass/style.scss */
 .logo.japanLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -295px center;
 }
 
-/* line 1893, ../components/sass/style.scss */
+/* line 1891, ../components/sass/style.scss */
 .logo.rougeLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -591px center;
 }
 
-/* line 1897, ../components/sass/style.scss */
+/* line 1895, ../components/sass/style.scss */
 .logo.artLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -887px center;
 }
 
-/* line 1901, ../components/sass/style.scss */
+/* line 1899, ../components/sass/style.scss */
 .logo.retroLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -739px center;
 }
 
-/* line 1905, ../components/sass/style.scss */
+/* line 1903, ../components/sass/style.scss */
 .logo.familyLogo {
   background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
   background-position: -1035px center;
 }
 
-/* line 1910, ../components/sass/style.scss */
+/* line 1908, ../components/sass/style.scss */
 .room-ap-row, .room-ap-row-wide {
   display: table !important;
   width: 100%;
   margin: 0;
 }
-/* line 1914, ../components/sass/style.scss */
+/* line 1912, ../components/sass/style.scss */
 .room-ap-row ul li, .room-ap-row-wide ul li {
   min-height: 35px;
   font-size: 20px;
@@ -2175,13 +2170,13 @@ rooms and aps opening
   margin-bottom: 10px;
   display: inline-block;
 }
-/* line 1922, ../components/sass/style.scss */
+/* line 1920, ../components/sass/style.scss */
 .room-ap-row ul li span, .room-ap-row-wide ul li span {
   font-size: 12px;
   color: #FFFFFF;
   line-height: 80%;
 }
-/* line 1927, ../components/sass/style.scss */
+/* line 1925, ../components/sass/style.scss */
 .room-ap-row .icon, .room-ap-row-wide .icon {
   width: 30px;
   height: 30px;
@@ -2194,28 +2189,28 @@ rooms and aps opening
   justify-content: center;
   margin-right: 10px;
 }
-/* line 1939, ../components/sass/style.scss */
+/* line 1937, ../components/sass/style.scss */
 .room-ap-row .icon img, .room-ap-row-wide .icon img {
   width: 75%;
   height: 75%;
 }
-/* line 1943, ../components/sass/style.scss */
+/* line 1941, ../components/sass/style.scss */
 .room-ap-row .nav-pills, .room-ap-row-wide .nav-pills {
   margin-bottom: 5px;
   margin-top: 15px;
   text-align: center;
 }
-/* line 1947, ../components/sass/style.scss */
+/* line 1945, ../components/sass/style.scss */
 .room-ap-row .nav-pills li, .room-ap-row-wide .nav-pills li {
   float: none;
 }
 
-/* line 1953, ../components/sass/style.scss */
+/* line 1951, ../components/sass/style.scss */
 .box .media-left {
   padding-right: 0;
 }
 
-/* line 1957, ../components/sass/style.scss */
+/* line 1955, ../components/sass/style.scss */
 .box .btn {
   font-size: 18px;
   padding: 8px 27px;
@@ -2224,13 +2219,13 @@ rooms and aps opening
   margin-bottom: 10px;
 }
 
-/* line 1966, ../components/sass/style.scss */
+/* line 1964, ../components/sass/style.scss */
 .box .btn-default {
   border: none;
   font-weight: bold;
 }
 
-/* line 1970, ../components/sass/style.scss */
+/* line 1968, ../components/sass/style.scss */
 .box .btn-details {
   border: 2px solid #FFFFFF;
   background-color: transparent;
@@ -2239,49 +2234,49 @@ rooms and aps opening
   margin-right: 5px;
 }
 
-/* line 1977, ../components/sass/style.scss */
+/* line 1975, ../components/sass/style.scss */
 .africa-room .btn-default {
   color: #FFBC01;
 }
 
-/* line 1980, ../components/sass/style.scss */
+/* line 1978, ../components/sass/style.scss */
 .india-room .btn-default {
   color: #73108E;
 }
 
-/* line 1983, ../components/sass/style.scss */
+/* line 1981, ../components/sass/style.scss */
 .space-room .btn-default {
   color: #132060;
 }
 
-/* line 1986, ../components/sass/style.scss */
+/* line 1984, ../components/sass/style.scss */
 .japan-room .btn-default {
   color: #E50000;
 }
 
-/* line 1989, ../components/sass/style.scss */
+/* line 1987, ../components/sass/style.scss */
 .rouge-ap .btn-default {
   color: #BE0000;
 }
 
-/* line 1992, ../components/sass/style.scss */
+/* line 1990, ../components/sass/style.scss */
 .art-retro-ap .btn-default {
   color: #EB8300;
 }
 
-/* line 1995, ../components/sass/style.scss */
+/* line 1993, ../components/sass/style.scss */
 .family-ap .btn-default {
   color: #00B7EB;
 }
 
-/* line 1998, ../components/sass/style.scss */
+/* line 1996, ../components/sass/style.scss */
 .padding-xs {
   padding-right: 15px;
   padding-left: 15px;
 }
 
 @media (min-width: 0) {
-  /* line 2007, ../components/sass/style.scss */
+  /* line 2005, ../components/sass/style.scss */
   .navbar-toggle {
     display: block;
     /* force showing the toggle */
@@ -2293,7 +2288,7 @@ rooms and aps opening
 	-------------------------------------------
 	-------------------------------------------*/
 @media (min-width: 992px) {
-  /* line 2021, ../components/sass/style.scss */
+  /* line 2019, ../components/sass/style.scss */
   .award-top {
     position: absolute;
     top: 30px;
@@ -2306,7 +2301,7 @@ rooms and aps opening
     line-height: 10;
     text-align: center;
   }
-  /* line 2032, ../components/sass/style.scss */
+  /* line 2030, ../components/sass/style.scss */
   .award-top img {
     width: 135px;
     height: 135px;
@@ -2315,22 +2310,22 @@ rooms and aps opening
   /*-------------------------------------------
   general info opening awards
   -------------------------------------------*/
-  /* line 2043, ../components/sass/style.scss */
+  /* line 2041, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-dots, .news .owl-theme .owl-controls .owl-dots, .reviews .owl-theme .owl-controls .owl-dots {
     display: none !important;
   }
 
-  /* line 2048, ../components/sass/style.scss */
+  /* line 2046, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-prev, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     left: -35px;
     background-image: url(../images/aventura-carusel-arrow-left.svg);
   }
-  /* line 2053, ../components/sass/style.scss */
+  /* line 2051, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-next {
     right: -35px;
     background-image: url(../images/aventura-carusel-arrow-right.svg);
   }
-  /* line 2057, ../components/sass/style.scss */
+  /* line 2055, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav .owl-next, .awards .owl-theme .owl-controls .owl-nav .owl-prev, .news .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     width: 22px;
     height: 22px;
@@ -2341,12 +2336,12 @@ rooms and aps opening
     background-position: center center;
     background-repeat: no-repeat;
   }
-  /* line 2067, ../components/sass/style.scss */
+  /* line 2065, ../components/sass/style.scss */
   .awards .row, .news .row, .reviews .row {
     width: 93%;
     margin: 0 auto;
   }
-  /* line 2071, ../components/sass/style.scss */
+  /* line 2069, ../components/sass/style.scss */
   .awards .owl-theme .owl-controls .owl-nav, .news .owl-theme .owl-controls .owl-nav, .reviews .owl-theme .owl-controls .owl-nav {
     display: block;
   }
@@ -2354,43 +2349,43 @@ rooms and aps opening
   /*-------------------------------------------
   general info opening news
   -------------------------------------------*/
-  /* line 2081, ../components/sass/style.scss */
+  /* line 2079, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     right: 35px !important;
     left: auto;
     background-image: url(../images/aventura-carusel-arrow-left.svg);
   }
-  /* line 2086, ../components/sass/style.scss */
+  /* line 2084, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-next {
     right: 10px;
     background-image: url(../images/aventura-carusel-arrow-right.svg);
   }
-  /* line 2091, ../components/sass/style.scss */
+  /* line 2089, ../components/sass/style.scss */
   .news .row, .reviews .row {
     width: auto;
     margin: auto;
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 2097, ../components/sass/style.scss */
+  /* line 2095, ../components/sass/style.scss */
   .news .owl-theme .owl-controls .owl-nav .owl-next, .news .owl-theme .owl-controls .owl-nav .owl-prev, .reviews .owl-theme .owl-controls .owl-nav .owl-next, .reviews .owl-theme .owl-controls .owl-nav .owl-prev {
     top: 0px;
     margin: 0px;
   }
 
-  /* line 2103, ../components/sass/style.scss */
+  /* line 2101, ../components/sass/style.scss */
   .facilities .nav li {
     width: 16.6%;
     justify-content: center;
   }
 
-  /* line 2108, ../components/sass/style.scss */
+  /* line 2106, ../components/sass/style.scss */
   .padding-right-zero {
     padding-right: 0px;
     padding-left: 15px;
   }
 
-  /* line 2112, ../components/sass/style.scss */
+  /* line 2110, ../components/sass/style.scss */
   .padding-xs {
     padding-right: 0px;
     padding-left: 0px;
@@ -2399,14 +2394,14 @@ rooms and aps opening
   /*-------------------------------------------
   rooms and aps opening
   -------------------------------------------*/
-  /* line 2123, ../components/sass/style.scss */
+  /* line 2121, ../components/sass/style.scss */
   .box {
     min-height: 350px;
     border-radius: 12px;
     margin-bottom: 10px;
   }
 
-  /* line 2129, ../components/sass/style.scss */
+  /* line 2127, ../components/sass/style.scss */
   .logo {
     width: 230px;
     height: 230px;
@@ -2420,81 +2415,81 @@ rooms and aps opening
     background-size: 1835px 231px;
     margin-top: 0px;
   }
-  /* line 2142, ../components/sass/style.scss */
+  /* line 2140, ../components/sass/style.scss */
   .logo .price {
     padding-top: 140px;
   }
-  /* line 2145, ../components/sass/style.scss */
+  /* line 2143, ../components/sass/style.scss */
   .logo h4 {
     margin-top: 0px;
     font-size: 43px;
     font-weight: bold;
   }
-  /* line 2150, ../components/sass/style.scss */
+  /* line 2148, ../components/sass/style.scss */
   .logo .euro {
     font-size: 15px;
     font-weight: lighter;
   }
-  /* line 2154, ../components/sass/style.scss */
+  /* line 2152, ../components/sass/style.scss */
   .logo .small {
     margin: 0px;
     padding: 0px;
   }
 
-  /* line 2160, ../components/sass/style.scss */
+  /* line 2158, ../components/sass/style.scss */
   .logo.africaLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: 0px center;
   }
 
-  /* line 2164, ../components/sass/style.scss */
+  /* line 2162, ../components/sass/style.scss */
   .logo.indiaLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -229px center;
   }
 
-  /* line 2168, ../components/sass/style.scss */
+  /* line 2166, ../components/sass/style.scss */
   .logo.spaceLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -688px center;
   }
 
-  /* line 2172, ../components/sass/style.scss */
+  /* line 2170, ../components/sass/style.scss */
   .logo.japanLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -459px center;
   }
 
-  /* line 2176, ../components/sass/style.scss */
+  /* line 2174, ../components/sass/style.scss */
   .logo.rougeLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -917px center;
   }
 
-  /* line 2180, ../components/sass/style.scss */
+  /* line 2178, ../components/sass/style.scss */
   .logo.artLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -1376px center;
   }
 
-  /* line 2184, ../components/sass/style.scss */
+  /* line 2182, ../components/sass/style.scss */
   .logo.retroLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -1147px center;
   }
 
-  /* line 2188, ../components/sass/style.scss */
+  /* line 2186, ../components/sass/style.scss */
   .logo.familyLogo {
     background-image: url(../images/aventura-rooms-aps-logos-sprite.svg);
     background-position: -1606px center;
   }
 
-  /* line 2193, ../components/sass/style.scss */
+  /* line 2191, ../components/sass/style.scss */
   .room-ap-row {
     display: table !important;
     height: 350px;
   }
-  /* line 2196, ../components/sass/style.scss */
+  /* line 2194, ../components/sass/style.scss */
   .room-ap-row ul li {
     min-height: 47px;
     font-size: 20px;
@@ -2502,21 +2497,21 @@ rooms and aps opening
     line-height: 100%;
     margin-bottom: 10px;
   }
-  /* line 2203, ../components/sass/style.scss */
+  /* line 2201, ../components/sass/style.scss */
   .room-ap-row ul li span {
     font-size: 14px;
     color: #FFFFFF;
   }
-  /* line 2207, ../components/sass/style.scss */
+  /* line 2205, ../components/sass/style.scss */
   .room-ap-row ul li:first-child {
     width: 177px;
     margin-right: 0px;
   }
-  /* line 2211, ../components/sass/style.scss */
+  /* line 2209, ../components/sass/style.scss */
   .room-ap-row ul li:last-child {
     width: 137px;
   }
-  /* line 2214, ../components/sass/style.scss */
+  /* line 2212, ../components/sass/style.scss */
   .room-ap-row .icon {
     width: 47px;
     height: 47px;
@@ -2529,19 +2524,19 @@ rooms and aps opening
     justify-content: center;
     margin-right: 13px;
   }
-  /* line 2228, ../components/sass/style.scss */
+  /* line 2226, ../components/sass/style.scss */
   .room-ap-row .nav-pills {
     margin-bottom: 10px;
     text-align: left;
   }
 
-  /* line 2233, ../components/sass/style.scss */
+  /* line 2231, ../components/sass/style.scss */
   .room-ap-row-wide {
     display: table !important;
     height: 350px;
     margin: 0;
   }
-  /* line 2237, ../components/sass/style.scss */
+  /* line 2235, ../components/sass/style.scss */
   .room-ap-row-wide ul li {
     min-height: 47px;
     font-size: 20px;
@@ -2549,12 +2544,12 @@ rooms and aps opening
     line-height: 100%;
     margin-bottom: 10px;
   }
-  /* line 2244, ../components/sass/style.scss */
+  /* line 2242, ../components/sass/style.scss */
   .room-ap-row-wide ul li span {
     font-size: 14px;
     color: #FFFFFF;
   }
-  /* line 2248, ../components/sass/style.scss */
+  /* line 2246, ../components/sass/style.scss */
   .room-ap-row-wide .icon {
     width: 47px;
     height: 47px;
@@ -2567,13 +2562,13 @@ rooms and aps opening
     justify-content: center;
     margin-right: 13px;
   }
-  /* line 2262, ../components/sass/style.scss */
+  /* line 2260, ../components/sass/style.scss */
   .room-ap-row-wide .nav-pills {
     margin-bottom: 10px;
     text-align: left;
   }
 
-  /* line 2268, ../components/sass/style.scss */
+  /* line 2266, ../components/sass/style.scss */
   .box .btn {
     font-size: 18px;
     padding: 8px 27px;
@@ -2582,13 +2577,13 @@ rooms and aps opening
     margin-bottom: 10px;
   }
 
-  /* line 2277, ../components/sass/style.scss */
+  /* line 2275, ../components/sass/style.scss */
   .box .btn-default {
     border: none;
     font-weight: bold;
   }
 
-  /* line 2281, ../components/sass/style.scss */
+  /* line 2279, ../components/sass/style.scss */
   .box .btn-details {
     border: 2px solid #FFFFFF;
     background-color: transparent;
@@ -2600,7 +2595,7 @@ rooms and aps opening
   /*-------------------------------------------
   main bar
   -------------------------------------------*/
-  /* line 2293, ../components/sass/style.scss */
+  /* line 2291, ../components/sass/style.scss */
   .main-bar {
     background-color: #8DC644;
     border-radius: 12px;
@@ -2612,19 +2607,19 @@ rooms and aps opening
     left: 79px;
     z-index: 999999;
   }
-  /* line 2303, ../components/sass/style.scss */
+  /* line 2301, ../components/sass/style.scss */
   .main-bar .padding {
     padding: 0 21px 21px 21px;
   }
-  /* line 2306, ../components/sass/style.scss */
+  /* line 2304, ../components/sass/style.scss */
   .main-bar .brand-wide-ap {
     display: none;
   }
-  /* line 2309, ../components/sass/style.scss */
+  /* line 2307, ../components/sass/style.scss */
   .main-bar .brand-tube-ap {
     display: none;
   }
-  /* line 2313, ../components/sass/style.scss */
+  /* line 2311, ../components/sass/style.scss */
   .main-bar .aventura-brand {
     background-color: #FFFFFF;
     min-height: 240px;
@@ -2633,14 +2628,14 @@ rooms and aps opening
     text-align: center;
     padding: 12px 0;
   }
-  /* line 2321, ../components/sass/style.scss */
+  /* line 2319, ../components/sass/style.scss */
   .main-bar .aventura-tube {
     position: absolute;
     left: 6px;
     margin-top: 7px;
   }
 
-  /* line 2328, ../components/sass/style.scss */
+  /* line 2326, ../components/sass/style.scss */
   .navbar-fixed-top {
     top: 330px;
     border-width: 0 0 1px;
@@ -2649,29 +2644,25 @@ rooms and aps opening
     z-index: 99999999;
   }
 
-  /* line 2339, ../components/sass/style.scss */
+  /* line 2337, ../components/sass/style.scss */
   .navbar-fixed-top-test {
-    top: 327px !important;
-    -moz-transition: all .3s  ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all .3s  ease;
-    transition: all .3s ease;
+    top: 327px;
     left: 100px;
   }
 
-  /* line 2349, ../components/sass/style.scss */
+  /* line 2343, ../components/sass/style.scss */
   .navbar-fixed-top-test-a {
-    top: 109px !important;
+    top: 0px !important;
     left: 100px;
   }
 
-  /* line 2354, ../components/sass/style.scss */
+  /* line 2348, ../components/sass/style.scss */
   .navbar-default {
     background-color: transparent;
     border: none;
   }
 
-  /* line 2358, ../components/sass/style.scss */
+  /* line 2352, ../components/sass/style.scss */
   .navbar-toggle {
     border: none;
     border-radius: 7px;
@@ -2682,7 +2673,7 @@ rooms and aps opening
     margin-left: 0px;
     float: left !important;
   }
-  /* line 2367, ../components/sass/style.scss */
+  /* line 2361, ../components/sass/style.scss */
   .navbar-toggle p {
     float: right;
     margin-top: -21px;
@@ -2690,23 +2681,23 @@ rooms and aps opening
     color: #8DC644;
     font-weight: bold;
   }
-  /* line 2375, ../components/sass/style.scss */
+  /* line 2369, ../components/sass/style.scss */
   .navbar-toggle .icon-bar {
     background-color: #8DC644 !important;
     margin-top: 5px;
     width: 16px;
   }
 
-  /* line 2381, ../components/sass/style.scss */
+  /* line 2375, ../components/sass/style.scss */
   .navbar-nav {
     margin: 0 -10px;
   }
 
-  /* line 2385, ../components/sass/style.scss */
+  /* line 2379, ../components/sass/style.scss */
   .navbarIcons {
     height: 40px;
   }
-  /* line 2388, ../components/sass/style.scss */
+  /* line 2382, ../components/sass/style.scss */
   .navbarIcons li {
     background-repeat: no-repeat !important;
     width: 28px;
@@ -2714,104 +2705,104 @@ rooms and aps opening
     background-size: 131px 34px;
     height: 40px;
   }
-  /* line 2396, ../components/sass/style.scss */
+  /* line 2390, ../components/sass/style.scss */
   .navbarIcons li.phone {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -8px center;
   }
-  /* line 2400, ../components/sass/style.scss */
+  /* line 2394, ../components/sass/style.scss */
   .navbarIcons li.skype {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -48px center;
   }
-  /* line 2404, ../components/sass/style.scss */
+  /* line 2398, ../components/sass/style.scss */
   .navbarIcons li.email {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     margin-right: 2px;
     background-position: -90px center;
   }
-  /* line 2409, ../components/sass/style.scss */
+  /* line 2403, ../components/sass/style.scss */
   .navbarIcons li.google {
     background: url(../images/aventura-mobil-nav-icons-sprite.svg);
     background-position: -133px center;
   }
-  /* line 2413, ../components/sass/style.scss */
+  /* line 2407, ../components/sass/style.scss */
   .navbarIcons li:last-child {
     margin-right: 4px;
   }
 
-  /* line 2418, ../components/sass/style.scss */
+  /* line 2412, ../components/sass/style.scss */
   .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 10px;
     text-indent: -300000px !important;
   }
 
-  /* line 2426, ../components/sass/style.scss */
+  /* line 2420, ../components/sass/style.scss */
   .apartment .brand-wide-hostel {
     display: none;
   }
-  /* line 2429, ../components/sass/style.scss */
+  /* line 2423, ../components/sass/style.scss */
   .apartment .brand-wide-ap {
     display: inline-block;
   }
-  /* line 2432, ../components/sass/style.scss */
+  /* line 2426, ../components/sass/style.scss */
   .apartment .main-bar, .apartment .form-opening .form-opening-padding, .apartment .navbar-toggle .icon-bar {
     background-color: #EB8300 !important;
   }
-  /* line 2436, ../components/sass/style.scss */
+  /* line 2430, ../components/sass/style.scss */
   .apartment .navbar-toggle p, .apartment .form-opening .btn-form, .apartment .form-opening .form-control {
     color: #EB8300;
   }
-  /* line 2439, ../components/sass/style.scss */
+  /* line 2433, ../components/sass/style.scss */
   .apartment .form-opening .form-control {
     background-image: url(../images/aventura-form-triangeBg-ap.svg);
     background-repeat: no-repeat;
     background-position: 93% 50%;
   }
-  /* line 2444, ../components/sass/style.scss */
+  /* line 2438, ../components/sass/style.scss */
   .apartment .form-opening .checkIn {
     background-image: url(../images/aventura-mobil-checkInBg-ap.svg);
     background-position: 95% 3px;
   }
 }
 @media (min-width: 992px) and (min-width: 992px) {
-  /* line 2448, ../components/sass/style.scss */
+  /* line 2442, ../components/sass/style.scss */
   .apartment .form-control::-moz-placeholder {
     color: #EB8300;
     opacity: 1;
   }
 }
 @media (min-width: 992px) {
-  /* line 2454, ../components/sass/style.scss */
+  /* line 2448, ../components/sass/style.scss */
   .apartment .brand-tube-hostel {
     display: none;
   }
-  /* line 2458, ../components/sass/style.scss */
+  /* line 2452, ../components/sass/style.scss */
   .apartment .brand-tube-ap {
     display: inline-block;
   }
 }
 @media (min-width: 500px) and (max-width: 991px) {
-  /* line 2470, ../components/sass/style.scss */
+  /* line 2464, ../components/sass/style.scss */
   .facilities .nav li {
     width: 33%;
     justify-content: center;
   }
 }
 @media (min-width: 1200px) {
-  /* line 2483, ../components/sass/style.scss */
+  /* line 2477, ../components/sass/style.scss */
   .room-ap-row {
     margin-left: -60px;
   }
 
-  /* line 2486, ../components/sass/style.scss */
+  /* line 2480, ../components/sass/style.scss */
   .box-room-wide .room-ap-row {
     margin-left: auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 2493, ../components/sass/style.scss */
+  /* line 2487, ../components/sass/style.scss */
   .room-ap-row {
     margin-left: 20px;
   }

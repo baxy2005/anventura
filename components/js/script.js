@@ -142,24 +142,24 @@ $('.owl-carousel-press').owlCarousel({
 });
 
 
-  
-$(function() {
-  
+
+
   // Init ScrollMagic Controller
-  var scrollMagicController = new ScrollMagic({
+  scrollMagicController = new ScrollMagic({
     globalSceneOptions: {
       triggerHook: "onLeave"
     }
   });
 
-	
-	
-	
+
+
+
 	 var tween = new TimelineMax();
-	 
+
 	    tween.add([
 		TweenMax.to(".budapest", 0.3, {top:-55}),
 		TweenMax.to(".aventura-tube", 0.2, {opacity:0}),
+		TweenMax.to(".navbar-fixed-top-test", 0.3, {top:109}),
 		TweenMax.to(".form-opening", 0.3, {top:157}),
 
 
@@ -183,25 +183,25 @@ $(function() {
 //		 height: 430
 //     }
 //);
-	 var scene = new ScrollScene({
+    scene = new ScrollScene({
 			   offset: 600
-	
+
   })
     .setTween(tween)
     .addTo(scrollMagicController);
-	
-				 var scene8 = new ScrollScene({
-			   offset: 600
-	
-  })
-  .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
-    .addTo(scrollMagicController);
+
+	//			 var scene8 = new ScrollScene({
+//			   offset: 600
+//
+//  })
+//  .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
+//    .addTo(scrollMagicController);
 
 
-	
+
 	//	 var scene2 = new ScrollScene({
 //			   offset: 600
-//	
+//
 //  })
 //  .setClassToggle('.aventura-brand', 'aventura-brand-small')
 //	   .setClassToggle('.aventura-tube', 'budapest-off')
@@ -209,50 +209,48 @@ $(function() {
 //
 			 var scene3 = new ScrollScene({
 			   offset: 600
-	
+
   })
   .setClassToggle('.aventura-brand', 'aventura-brand-small')
     .addTo(scrollMagicController);
 //
 //			 var scene4 = new ScrollScene({
 //			   offset: 600
-//	
+//
 //  })
 //  .setClassToggle('.main-bar', 'main-bar-moving')
 //    .addTo(scrollMagicController);
 //
 //				 var scene5 = new ScrollScene({
 //			   offset: 600
-//	
+//
 //  })
 //  .setClassToggle('.navbar-fixed-top', 'navbar-fixed-top-moving')
 //    .addTo(scrollMagicController);
 //
 //				 var scene6 = new ScrollScene({
 //			   offset: 600
-//	
+//
 //  })
 //  .setClassToggle('.form-opening', 'form-opening-moving')
 //    .addTo(scrollMagicController);
 //
-//	
-	
-	
-	
+//
+
+
+
 		 var scene1 = new ScrollScene({
 			triggerElement:  '#general',
 		 offset: 30
-	
+
   })
   .setClassToggle('.aventura-brand', 'aventura-brand-small-rounded')
     .addTo(scrollMagicController);
 
-	
+
   // Add debug indicators fixed on right side
-   scene.addIndicators();
-   
- 
-});
+   //scene.addIndicators();
+
 
 			  $(".navbar-toggle").on("click", function () {
 				    $(this).toggleClass("active");
@@ -292,3 +290,18 @@ $('#main-carousel .item img').each(function() {
             return old=='Read More' ?  'Close' : 'Read More';
         });
     });
+
+
+$(window).resize(function() {
+  if ($(document).width() > 992) {
+    scrollMagicController.enabled(true);
+	$(".navbar-fixed-top-test").removeClass("navbar-fixed-top-test-a");
+  }
+  else {
+    scrollMagicController.enabled(false);
+	$(".navbar-fixed-top-test").addClass("navbar-fixed-top-test-a");
+  }
+});
+
+
+$(window).trigger('resize');
