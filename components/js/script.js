@@ -159,7 +159,6 @@ $('.owl-carousel-press').owlCarousel({
 	    tween.add([
 		TweenMax.to(".budapest", 0.3, {top:-55}),
 		TweenMax.to(".aventura-tube", 0.2, {opacity:0}),
-		TweenMax.to(".navbar-fixed-top-test", 0.3, {top:109}),
 		TweenMax.to(".form-opening", 0.3, {top:157}),
 
 
@@ -190,12 +189,12 @@ $('.owl-carousel-press').owlCarousel({
     .setTween(tween)
     .addTo(scrollMagicController);
 
-	//			 var scene8 = new ScrollScene({
-//			   offset: 600
-//
-//  })
-//  .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
-//    .addTo(scrollMagicController);
+				 var scene8 = new ScrollScene({
+			   offset: 600
+
+  })
+  .setClassToggle('.navbar-fixed-top-test', 'navbar-fixed-top-test-a')
+    .addTo(scrollMagicController);
 
 
 
@@ -295,11 +294,9 @@ $('#main-carousel .item img').each(function() {
 $(window).resize(function() {
   if ($(document).width() > 992) {
     scrollMagicController.enabled(true);
-	$(".navbar-fixed-top-test").removeClass("navbar-fixed-top-test-a");
   }
   else {
     scrollMagicController.enabled(false);
-	$(".navbar-fixed-top-test").addClass("navbar-fixed-top-test-a");
   }
 });
 
