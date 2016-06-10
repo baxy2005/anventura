@@ -5,6 +5,7 @@ $color-secondary: #F8CF22;
 $color-tertiary: #796B9C;
 $color-black: #000000;
 $color-white: #FFFFFF;
+$color-red: #FF0000;
 
 /* room and ap colors*/
 
@@ -15,6 +16,7 @@ $color-japan: #E50000;
 $color-rouge: #BE0000;
 $color-artRetro: #EB8300;
 $color-family: #00B7EB;
+$color-massage: #B51A8A;
 
 $light-color3-gray: lighten($color-black, 95% );
 $light-color2-gray: lighten($color-black, 90% );
@@ -39,6 +41,9 @@ $light-6-color-white: rgba($color-white,0.30);
 
 $fade-color-primary: tint( $color-primary, 50%);
 $fade-color-2-primary: tint( $color-primary, 40%);
+$fade-color-3-primary: tint( $color-primary, 75%);
+$fade-color-red: tint( $color-red, 75%);
+$fade-color-massage: tint( $color-massage, 75%);
 
 $fade-color-secondary: tint( $color-secondary, 50%);
 
